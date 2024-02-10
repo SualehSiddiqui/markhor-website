@@ -8,6 +8,7 @@ import {
 import HomePage from "../pages/home/index.jsx";
 import NotFoundPage from "../pages/notFound/index.jsx";
 import ContactUsPage from "../pages/contactUs/index.jsx";
+import ServicePage from "../pages/service/index.jsx";
 
 const RoutesPages = () => {
     return (
@@ -15,6 +16,7 @@ const RoutesPages = () => {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/ContactUs" element={<ContactUsPage />} />
+                <Route path="/Services" element={<ServicePage />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </Router>

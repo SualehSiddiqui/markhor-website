@@ -112,7 +112,7 @@ export default function Footer() {
               <Form onSubmit={handleFooterSubmit}>
                 <Form.Group>
                   <Form.Control
-                    className="contact-input"
+                    className="contact-input footer-input"
                     type="email"
                     placeholder="Enter email"
                     onChange={e => {

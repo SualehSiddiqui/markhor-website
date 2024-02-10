@@ -137,3 +137,13 @@
         min-height: auto;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .footer-input {
+        width: 90% !important;
+    }
+
+    .logo-div h1{
+        font-size: 30px;
+    }
+}
