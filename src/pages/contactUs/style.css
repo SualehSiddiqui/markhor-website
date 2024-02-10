@@ -1,0 +1,82 @@
+.mid-section {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    align-items: center;
+}
+
+.mid-section-1 {
+    background-image: url('../../assets/ContactUs/Services-Overview-1.jpg');
+    background-position: cover;
+}
+
+.mid-section-2 {
+    background-image: url('../../assets/ContactUs/background-image-2.png');
+    background-position: cover;
+    width: 100%;
+    height: 70vh;
+    padding-left: 200px;
+}
+
+.page-name-div {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.page-name-div>h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.address-div {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-address-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-div {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flag-image {
+    width: 100%;
+    height: 100%;
+}
+
+.country-div {
+    padding: 20px;
+}
+
+.flag-div-responsive{
+    width: 100%;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .flag-div-responsive{
+        display: flex;
+    }
+
+    .flag-div-main{
+        display: none;
+    }
+
+    .mid-section-2{
+        display: none;
+    }
+}
