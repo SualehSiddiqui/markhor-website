@@ -1,0 +1,142 @@
+.about-page-card-img-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-div-service {
+    width: 40%;
+    height: 80%;
+}
+
+.sub-main-about {
+    min-height: 70vh;
+}
+
+.sub-main-about-2,
+.sub-main-about-3 {
+    background-color: #F7F9FB;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sub-main-about-3 {
+    min-height: 30vh;
+}
+
+.about-icon {
+    filter: brightness(64%) contrast(200%) saturate(120%) blur(0px) hue-rotate(287deg);
+    width: 100px;
+}
+
+.icon-div-about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.icon-div-about>h2 {
+    font-size: 48px;
+}
+
+.text-div-about {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.main-detail-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.main-detail-about-2 {
+    background-color: black;
+    color: white;
+}
+
+.text-div-about-2 {
+    padding: 30px;
+    text-align: left;
+}
+
+.check-icon {
+    font-size: 48px;
+}
+
+.icon-txt {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.main-detail-about-1 {
+    border-bottom: 5px solid #000;
+}
+
+.main-detail-about-3 {
+    border-bottom: 5px solid #088bed;
+}
+
+.appointment-div {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.appointments-text-div {
+    width: 55%;
+    height: auto;
+}
+
+.appointments-text-div>h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+.appointments-button-div {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.appointment-button {
+    width: auto !important;
+    padding: 10px !important;
+    height: auto !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .main-detail-about {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-details-container {
+        flex-wrap: wrap;
+    }
+
+    .appointment-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .appointments-text-div,
+    .appointments-button-div {
+        width: 100%;
+    }
+}
