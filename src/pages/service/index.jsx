@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import CounterSec from "../../sections/Counter.jsx";
 import ServiceSec from "../../sections/Services.jsx";
 import card1 from "../../assets/Service/img-service-02.jpg";
+import card2 from "../../assets/Service/img-service-03.jpg";
 import IconBug from "../../assets/Service/icon-bug.png";
 import Triangle from "../../assets/Service/img-backup.png";
 import Img04 from "../../assets/Service/img-service-04.jpg";
@@ -72,7 +73,7 @@ const ServicePage = () => {
                                 <div className='service-page-card-icon-div-2'>
                                     <img src={Triangle} width={200} alt="" />
                                 </div>
-                                <img src={card1} alt="card-img" className='service-page-card-img' />
+                                <img src={card2} alt="card-img" className='service-page-card-img' />
                             </div>
                         </div>
                         <div className='d-flex sub-service-page-card-div' data-aos-duration="700" data-aos="zoom-in-up" >
