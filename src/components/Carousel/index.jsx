@@ -7,7 +7,7 @@ import Three from '../../assets/Carousel/3.png'
 import Four from '../../assets/Carousel/4.png'
 
 const CorouselComp = () => (
-    <Carousel autoplay className='carousel-div' fade>
+    <Carousel autoplay className='carousel-div' fade speed={1000} autoplaySpeed	={5000}>
         <div className='carousel-div'>
             <div className='text-div-carousel'>
                 <Container>
