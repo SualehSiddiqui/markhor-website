@@ -3,6 +3,7 @@
     height: 440px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .mid-section-1 {

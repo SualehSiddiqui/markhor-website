@@ -1,11 +1,10 @@
 .main-footer {
-    background-color: rgb(49, 48, 48);
+    background-color: var(--footer-color);
     width: 100%;
     height: auto;
 }
 
 .upper-footer {
-    /* background-color: aqua; */
     width: 100%;
     height: auto;
 }

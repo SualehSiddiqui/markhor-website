@@ -7,7 +7,6 @@
 .main-service {
     width: 100%;
     height: auto;
-    /* padding-top: 70px; */
 }
 
 .main-service-hd,
@@ -17,6 +16,7 @@
     font-weight: 650;
     font-size: 60px;
     text-transform: capitalize;
+    color: var(--second-color);
 }
 
 .service-card-div {
@@ -69,7 +69,7 @@
 }
 
 .card-link:hover {
-    color: black;
+    color: var(--second-color);
 }
 
 .card-sec-3 {
@@ -112,7 +112,7 @@
 }
 
 .icon-div:hover {
-    background-color: black;
+    background-color: var(--second-color);
     color: white;
 }
 
@@ -133,11 +133,12 @@
     border: none;
     background-color: white;
     font-weight: 500;
+    color: var(--second-color);
 }
 
 .selected-logo-button {
     color: white;
-    background-color: black;
+    background-color: var(--second-color);
 }
 
 .logo-button:hover {
@@ -189,7 +190,7 @@
 .counter-div {
     width: 100%;
     height: 220px;
-    background-color: black;
+    background-color: var(--second-color);
     box-shadow: 10px 10px 0px 0px var(--golden-color);
     display: flex;
     justify-content: space-around;
@@ -284,7 +285,7 @@
 
 /* Contact */
 .main-contact {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--second-color-opacity);
     padding-top: 100px;
     position: relative;
     min-height: 100vh;

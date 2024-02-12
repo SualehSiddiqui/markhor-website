@@ -12,7 +12,7 @@ import Button from 'react-bootstrap/Button';
 
 
 
-const AboutUSPage = () => {
+const AboutUsPage = () => {
     useEffect(() => {
         AOS.init();
     }, [])
@@ -21,13 +21,13 @@ const AboutUSPage = () => {
             <div>
                 <NavbarComp />
                 <div className="main-service">
-                    <div className='service-page-img-div'>
+                    <div className='service-page-img-div about-page-img-div'>
                         <Container>
                             <h2 className='service-page-main-hd'>About Us</h2>
                         </Container>
                         <div className='shape-svg-container'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                                <path class="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
+                                <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
                             </svg>
                         </div>
                     </div>
@@ -77,8 +77,7 @@ const AboutUSPage = () => {
                         </div>
                     </div>
                     <div data-aos-duration="700" data-aos="zoom-in-up" className='main-detail-about main-detail-about-2'>
-                        <div className='icon-div-about '>
-                            {/* <img src={IconCheck} alt="check_icon" className='about-icon mb-3' /> */}
+                        <div className='icon-div-about-middle '>
                             <h2>Why Choose Us?</h2>
                         </div>
                         <div className='text-div-about text-div-about-2'>
@@ -142,4 +141,4 @@ const AboutUSPage = () => {
     )
 }
 
-export default AboutUSPage;
+export default AboutUsPage;

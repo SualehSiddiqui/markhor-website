@@ -1,3 +1,7 @@
+.about-page-img-div {
+    background-image: url('../../assets/AboutUs/about-pages-header.jpg');
+}
+
 .about-page-card-img-div {
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +35,7 @@
     width: 100px;
 }
 
-.icon-div-about {
+.icon-div-about , .icon-div-about-middle{
     width: 100%;
     display: flex;
     align-items: center;
@@ -41,6 +45,11 @@
 }
 
 .icon-div-about>h2 {
+    font-size: 48px;
+    color: var(--second-color);
+}
+
+.icon-div-about-middle>h2 {
     font-size: 48px;
 }
 
@@ -62,7 +71,7 @@
 }
 
 .main-detail-about-2 {
-    background-color: black;
+    background-color: var(--second-color);
     color: white;
 }
 
@@ -81,7 +90,7 @@
 }
 
 .main-detail-about-1 {
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid var(--second-color);
 }
 
 .main-detail-about-3 {
@@ -103,6 +112,7 @@
 .appointments-text-div>h1 {
     font-size: 58px;
     margin-bottom: 20px;
+    color: var(--second-color);
 }
 
 .appointments-button-div {

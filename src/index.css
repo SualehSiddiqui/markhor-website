@@ -2,6 +2,9 @@
 
 :root {
   --golden-color: #d0b53d;
+  --footer-color: #0a2121;
+  --second-color: #024342;
+  --second-color-opacity: rgba(2, 67, 66, 0.7);
   --white: #fff;
   --card-bg: #f7f9fb;
 }

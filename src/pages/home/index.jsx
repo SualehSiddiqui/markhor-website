@@ -1,4 +1,3 @@
-// import "./style.css";
 import NavbarComp from "../../components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
