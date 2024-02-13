@@ -12,7 +12,7 @@ import Img05 from '../../assets/Job/img05.jpg'
 import Img06 from '../../assets/Job/img06.jpg'
 import Img07 from '../../assets/Job/img07.jpg'
 import Img08 from '../../assets/Job/img08.jpg'
-
+import { TypeAnimation } from 'react-type-animation';
 
 const JobPage = () => {
     useEffect(() => {
@@ -25,7 +25,16 @@ const JobPage = () => {
                 <div className="main-service">
                     <div className='service-page-img-div job-page-img-div'>
                         <Container>
-                            <h2 className='service-page-main-hd'>Jobs</h2>
+                        <TypeAnimation
+                                sequence={[
+                                    'Jobs',
+                                ]}
+                                wrapper="h1"
+                                speed={10}
+                                repeat={0}
+                                className='service-page-main-hd'
+                                cursor={false}
+                            />
                         </Container>
                         <div className='shape-svg-container'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">

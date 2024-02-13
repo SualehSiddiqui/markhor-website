@@ -12,7 +12,7 @@ import IconBug from "../../assets/Service/icon-bug.png";
 import Triangle from "../../assets/Service/img-backup.png";
 import Img04 from "../../assets/Service/img-service-04.jpg";
 import Img05 from "../../assets/Service/img-service-05.jpg";
-
+import { TypeAnimation } from 'react-type-animation';
 
 const ServicePage = () => {
     useEffect(() => {
@@ -25,7 +25,16 @@ const ServicePage = () => {
                 <div className="main-service">
                     <div className='service-page-img-div'>
                         <Container>
-                            <h2 className='service-page-main-hd'>About Us</h2>
+                            <TypeAnimation
+                                sequence={[
+                                    'Services',
+                                ]}
+                                wrapper="h1"
+                                speed={10}
+                                repeat={0}
+                                className='service-page-main-hd'
+                                cursor={false}
+                            />
                         </Container>
                         <div className='shape-svg-container'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">

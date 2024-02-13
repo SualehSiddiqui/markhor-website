@@ -9,8 +9,7 @@ import Img02 from "../../assets/AboutUs/img2.jpg";
 import IconCheck from "../../assets/AboutUs/icon-check.png"
 import { FaRegCheckSquare } from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
-
-
+import { TypeAnimation } from 'react-type-animation';
 
 const AboutUsPage = () => {
     useEffect(() => {
@@ -23,7 +22,16 @@ const AboutUsPage = () => {
                 <div className="main-service">
                     <div className='service-page-img-div about-page-img-div'>
                         <Container>
-                            <h2 className='service-page-main-hd'>About Us</h2>
+                                <TypeAnimation
+                                    sequence={[
+                                        'About Us',
+                                    ]}
+                                    wrapper="h2"
+                                    speed={10}
+                                    repeat={0}
+                                    className='service-page-main-hd'
+                                    cursor={false}
+                                />
                         </Container>
                         <div className='shape-svg-container'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">

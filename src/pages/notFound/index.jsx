@@ -16,15 +16,7 @@ const NotFoundPage = () => {
                             {/* The page can’t be found. */}
                             <TypeAnimation
                                 sequence={[
-                                    // Same substring at the start will only be typed out once, initially
-                                    'The page can’t be found.',
-                                    // 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                    // 'We produce food for Hamsters',
-                                    // 1000,
-                                    // 'We produce food for Guinea Pigs',
-                                    // 1000,
-                                    // 'We produce food for Chinchillas',
-                                    // 1000
+                                    'The page can’t be found.'
                                 ]}
                                 wrapper="span"
                                 speed={50}

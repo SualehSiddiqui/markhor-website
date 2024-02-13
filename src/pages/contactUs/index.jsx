@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import AOS from "aos";
 import { useState, useEffect } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 
 const ContactUsPage = () => {
     const [name, setName] = useState("");
@@ -39,8 +40,26 @@ const ContactUsPage = () => {
                     </div>
                     <Container >
                         <div className='page-name-div'>
-                            <h1>Contact Us</h1>
-                            <h1 className='mt-5'>If You Need Any Help! Contact With Us.</h1>
+                            <TypeAnimation
+                                sequence={[
+                                    'Contact Us',
+                                ]}
+                                wrapper="h1"
+                                speed={10}
+                                repeat={0}
+                                className='service-page-main-hd'
+                                cursor={false}
+                            />
+                            <TypeAnimation
+                                sequence={[
+                                    'If You Need Any Help! Contact With Us.',
+                                ]}
+                                wrapper="h1"
+                                speed={10}
+                                repeat={0}
+                                className='service-page-main-hd mt-5'
+                                cursor={false}
+                            />
                         </div>
                     </Container>
                 </div>
