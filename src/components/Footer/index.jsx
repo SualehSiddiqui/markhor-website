@@ -60,7 +60,9 @@ export default function Footer() {
                   <FaPhoneAlt className="location-icon" />
                 </p>
                 <p>
-                  +92318-0705689
+                  <Link to={'tel:++92318-0705689'} className="text-div-link">
+                    +92318-0705689
+                  </Link>
                 </p>
               </div>
               <div className="d-flex">

@@ -46,7 +46,16 @@
     color: var(--golden-color);
 }
 
+.text-div-link {
+    color: var(--golden-color);
+}
+
 .text-div div p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-div div {
     font-size: 18px;
     font-weight: 500;
 }
@@ -55,7 +64,8 @@
     cursor: pointer;
 }
 
-.text-div div:hover {
+.text-div div:hover,
+.text-div-link:hover {
     color: white;
 }
 
@@ -142,7 +152,7 @@
         width: 90% !important;
     }
 
-    .logo-div h1{
+    .logo-div h1 {
         font-size: 30px;
     }
 }
