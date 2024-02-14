@@ -55,7 +55,7 @@ const ContactSec = () => {
                                 className="contact-upload"
                                 type="file"
                                 onChange={e => {
-                                    setResume(e.target.files[0]);
+                                    setResume(e.target.files[0]);  
                                 }}
                             />
                         </Form.Group>

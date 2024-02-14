@@ -16,3 +16,9 @@
 .nav-active-link{
     color: var(--golden-color) !important;
 }
+
+.nav-logo-img{
+    /* width: 220px; */
+    height: 80px;
+    margin-top: 10px;
+}

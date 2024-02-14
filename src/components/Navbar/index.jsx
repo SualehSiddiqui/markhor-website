@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useLocation } from 'react-router-dom';
-
+import navLogo from "../../assets/nav-logo.png";
 
 
 const pages = [
@@ -32,13 +32,15 @@ const pages = [
 
 function NavbarComp() {
     let location = useLocation();
-    
+
     return (
         <>
             {['sm'].map((expand) => (
                 <Navbar key={expand} expand={expand} className="bg-body main-navbar">
                     <Container>
-                        <Navbar.Brand href="/">Markhor</Navbar.Brand>
+                        <Navbar.Brand href="/">
+                            <img src={navLogo} className="nav-logo-img" alt="Markhor_Soultion" />
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

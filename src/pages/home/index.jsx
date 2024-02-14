@@ -1,3 +1,4 @@
+import "./style.css"
 import NavbarComp from "../../components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,6 +11,7 @@ import ProjectSec from "../../sections/Projects.jsx";
 import CounterSec from "../../sections/Counter.jsx";
 import TechnologiesSec from "../../sections/Technologies.jsx";
 import ContactSec from "../../sections/Contact.jsx";
+import backImage from "../../assets/background-img-2.png"
 
 const HomePage = () => {
 
@@ -18,24 +20,29 @@ const HomePage = () => {
     }, [])
 
     return (
-        <div>
-            {/* Navbar */}
-            <NavbarComp />
-            <CorouselComp />
-            {/* Services Section */}
-            <ServiceSec />
-            {/* Procedure Section */}
-            <ProcedureSec />
-            {/* Case Study */}
-            <ProjectSec />
-            {/* Counter */}
-            <CounterSec />
-            {/* Technologies Section*/}
-            <TechnologiesSec />
-            {/* Contact Section */}
-            <ContactSec />
-            {/* Footer */}
-            <Footer />
+        <div className="main-home-div">
+            <div className="sub-home-div">
+                <img src={backImage} alt="" className="background-image"/>
+            </div>
+            <div>
+                {/* Navbar */}
+                <NavbarComp />
+                <CorouselComp />
+                {/* Services Section */}
+                <ServiceSec />
+                {/* Procedure Section */}
+                <ProcedureSec />
+                {/* Case Study */}
+                <ProjectSec />
+                {/* Counter */}
+                <CounterSec />
+                {/* Technologies Section*/}
+                <TechnologiesSec />
+                {/* Contact Section */}
+                <ContactSec />
+                {/* Footer */}
+                <Footer />
+            </div>
         </div>
     )
 }

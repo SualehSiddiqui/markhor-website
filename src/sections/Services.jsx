@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ServiceSec = () => {
     return (
-        <div className="main-service mt-5">
+        <div className="main-service">
             <h4 className="procedure-hd">We Provide Best Solutions For</h4>
             <h1 className="main-service-hd">Our Services</h1>
             <Container className="service-container">

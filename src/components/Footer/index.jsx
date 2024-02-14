@@ -6,6 +6,8 @@ import { FaPhoneAlt, FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from "react";
+import { MdDoubleArrow } from "react-icons/md";
+import FooterLogo from "../../assets/Footer/footer-logo-removebg-preview.png";
 
 const pages = [
   {
@@ -47,12 +49,13 @@ export default function Footer() {
   }
 
   return (
-    <div className="main-footer mt-auto">
+    <div className="main-footer me-auto">
       <div className="upper-footer">
         <Container className="footer-container">
           <div className="sub-footer">
             <div className="logo-div">
-              <h1>Markhor</h1>
+              {/* <h1>Markhor</h1> */}
+              <img src={FooterLogo} alt="Footer-Logo_Markhor" className="footer-logo" />
             </div>
             <div className="text-div">
               <div className="d-flex">
@@ -60,8 +63,8 @@ export default function Footer() {
                   <FaPhoneAlt className="location-icon" />
                 </p>
                 <p>
-                  <Link to={'tel:++92318-0705689'} className="text-div-link">
-                    +92318-0705689
+                  <Link to={'tel:++923183253219'} className="text-div-link">
+                    +92 318 3253219
                   </Link>
                 </p>
               </div>
@@ -86,6 +89,7 @@ export default function Footer() {
                     return (
                       <li key={i}>
                         <Link to={v.link} className="footer-links">
+                          <MdDoubleArrow className="footer-list-icons" />
                           {v.name}
                         </Link>
                       </li>
@@ -110,7 +114,7 @@ export default function Footer() {
             <div className="logo-div">
               <h1>Latest News</h1>
             </div>
-            <div className="text-div footer-link-div">
+            <div className="text-div ">
               <Form onSubmit={handleFooterSubmit}>
                 <Form.Group>
                   <Form.Control
