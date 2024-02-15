@@ -19,29 +19,27 @@ const AboutUsPage = () => {
         <>
             <div>
                 <NavbarComp />
-                <div className="main-service">
-                    <div className='service-page-img-div about-page-img-div'>
-                        <Container>
-                                <TypeAnimation
-                                    sequence={[
-                                        'About Us',
-                                    ]}
-                                    wrapper="h2"
-                                    speed={10}
-                                    repeat={0}
-                                    className='service-page-main-hd'
-                                    cursor={false}
-                                />
-                        </Container>
-                        <div className='shape-svg-container'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                                <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
-                            </svg>
-                        </div>
+                <div className='service-page-img-div about-page-img-div'>
+                    <Container>
+                        <TypeAnimation
+                            sequence={[
+                                'About Us',
+                            ]}
+                            wrapper="h2"
+                            speed={10}
+                            repeat={0}
+                            className='service-page-main-hd'
+                            cursor={false}
+                        />
+                    </Container>
+                    <div className='shape-svg-container'>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                            <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
-            <div className="main-service sub-main-about">
+            <div className="sub-main-about">
                 <Container>
                     <div className='service-page-card-div'>
                         <div className='d-flex sub-service-page-card-div' data-aos-duration="700" data-aos="zoom-in-up" >
@@ -69,7 +67,7 @@ const AboutUsPage = () => {
                     </div>
                 </Container>
             </div>
-            <div className="main-service sub-main-about-2">
+            <div className="sub-main-about-2">
                 <Container className='about-details-container d-flex justify-content-center align-items-center'>
                     <div data-aos-duration="700" data-aos="zoom-in-up" className='main-detail-about main-detail-about-1'>
                         <div className='icon-div-about'>
@@ -120,7 +118,7 @@ const AboutUsPage = () => {
                     </div>
                 </Container>
             </div>
-            <div className="main-service sub-main-about-3">
+            <div className="sub-main-about-3">
                 <Container>
                     <div className='appointment-div' data-aos-duration="700" data-aos="zoom-in-up">
                         <div className='appointments-text-div'>

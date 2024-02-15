@@ -22,29 +22,27 @@ const JobPage = () => {
         <>
             <div>
                 <NavbarComp />
-                <div className="main-service">
-                    <div className='service-page-img-div job-page-img-div'>
-                        <Container>
+                <div className='service-page-img-div job-page-img-div'>
+                    <Container>
                         <TypeAnimation
-                                sequence={[
-                                    'Jobs',
-                                ]}
-                                wrapper="h1"
-                                speed={10}
-                                repeat={0}
-                                className='service-page-main-hd'
-                                cursor={false}
-                            />
-                        </Container>
-                        <div className='shape-svg-container'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                                <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
-                            </svg>
-                        </div>
+                            sequence={[
+                                'Jobs',
+                            ]}
+                            wrapper="h1"
+                            speed={10}
+                            repeat={0}
+                            className='service-page-main-hd'
+                            cursor={false}
+                        />
+                    </Container>
+                    <div className='shape-svg-container'>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                            <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
-            <div className="main-service job-page-img-container">
+            <div className="job-page-img-container">
                 <Container className='main-img-container'>
                     <div className='sub-img-container'>
                         <div className='two-img-container me-2'>

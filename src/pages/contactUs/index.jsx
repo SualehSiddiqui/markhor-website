@@ -31,8 +31,7 @@ const ContactUsPage = () => {
     return (
         <div>
             <NavbarComp />
-            <div className="main-service mid-section-1">
-                <div className='mid-section'>
+                <div className='mid-section mid-section-1'>
                     <div className='shape-svg-container'>
                         <svg xmlns="http://www.w3.org/2000/svg" className='contact-svg' viewBox="0 0 1000 100" preserveAspectRatio="none">
                             <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
@@ -63,7 +62,6 @@ const ContactUsPage = () => {
                         </div>
                     </Container>
                 </div>
-            </div>
             <div className='mid-section-2'>
                 <Container >
                     <div className='address-div flag-div-main'>
@@ -95,7 +93,7 @@ const ContactUsPage = () => {
                 </div>
             </div>
             <div className="background-img-div" style={{ margin: 0 }}></div>
-            <div className="main-service main-contact" style={{ margin: 0 }}>
+            <div className="main-contact" style={{ margin: 0 }}>
                 <Container className="service-container" data-aos-duration="700" data-aos="zoom-in-up">
                     <h4 className="procedure-hd">Let's Connect</h4>
                     <h1 className="main-contact-hd">Leave Us Your Details And We’ll Get Back To You</h1>

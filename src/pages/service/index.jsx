@@ -22,7 +22,6 @@ const ServicePage = () => {
         <>
             <div>
                 <NavbarComp />
-                <div className="main-service">
                     <div className='service-page-img-div'>
                         <Container>
                             <TypeAnimation
@@ -44,8 +43,6 @@ const ServicePage = () => {
                     </div>
                 </div>
                 <ServiceSec />
-            </div>
-            <div className="main-service">
                 <Container>
                     <div className='service-page-card-div'>
                         <div className='d-flex sub-service-page-card-div' data-aos-duration="700" data-aos="zoom-in-up" >
@@ -111,7 +108,6 @@ const ServicePage = () => {
                         </div>
                     </div>
                 </Container>
-            </div>
             <Footer />
         </>
     )
