@@ -1,12 +1,34 @@
 import "./style.css";
 import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
+import SvgComponent from "../components/SvgComponent";
+import { TypeAnimation } from 'react-type-animation';
 
 const ServiceSec = () => {
+
     return (
-        <div className="main-service">
-            <h4 className="procedure-hd">We Provide Best Solutions For</h4>
-            <h1 className="main-service-hd">Our Services</h1>
+        <div className="main-service" id="reviews">
+            <h4 className="procedure-hd">
+                Markhor Solutions
+                <TypeAnimation
+                    sequence={[
+                        ' - One of the Best IT Compnay in Karachi',
+                        1000,
+                        ' Provides Best Quality Work.',
+                        1000,
+                    ]}
+                    wrapper="span"
+                    speed={50}
+                    repeat={Infinity}
+                    className="procedure-hd"
+                />
+            </h4>
+            <div className="main-service-hd-1">
+                <h1 className="main-service-hd" >
+                    Our Services
+                </h1>
+                <SvgComponent />
+            </div>
             <Container className="service-container">
                 <div className="service-card-div">
                     <div data-aos-duration="700" data-aos="zoom-in-up" className="service-card">

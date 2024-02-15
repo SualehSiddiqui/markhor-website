@@ -22,11 +22,12 @@ const HomePage = () => {
     return (
         <div className="main-home-div">
             <div className="sub-home-div">
-                <img src={backImage} alt="" className="background-image"/>
+                <img src={backImage} alt="" className="background-image" />
             </div>
             <div>
                 {/* Navbar */}
                 <NavbarComp />
+                {/* Carousel */}
                 <CorouselComp />
                 {/* Services Section */}
                 <ServiceSec />

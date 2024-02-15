@@ -1,0 +1,26 @@
+.svg-container{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    line-height: 0;
+    left: 0;
+    transform: scaleY(-1.0);
+}
+
+.svg-hd {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    color: var(--second-color);
+}
+
+.divider-fill {
+    fill: var(--second-color);
+    transform-origin: bottom;
+    transform: rotateY(0deg);
+}

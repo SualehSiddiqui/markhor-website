@@ -13,7 +13,6 @@ const NotFoundPage = () => {
                 <Container className="service-container">
                     <div className="notfound-div">
                         <h1>
-                            {/* The page can’t be found. */}
                             <TypeAnimation
                                 sequence={[
                                     'The page can’t be found.'

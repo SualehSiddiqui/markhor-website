@@ -12,6 +12,13 @@
     padding-bottom: 100px;
 }
 
+.main-service-hd-1 {
+    width: 100%;
+    height: 90px;
+    background-color: var(--second-color);
+    position: relative;
+}
+
 .main-service-hd,
 .main-procedure-hd,
 .main-contact-hd {
@@ -19,7 +26,7 @@
     font-weight: 650;
     font-size: 60px;
     text-transform: capitalize;
-    color: var(--second-color);
+    color: var(--hd-text-color);
 }
 
 .service-card-div {
@@ -229,8 +236,8 @@
 }
 
 /* Technologies */
-.main-technologies{
-    background-color: rgba(255, 255, 255,0.5);
+.main-technologies {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .technologies-1 {
@@ -370,7 +377,6 @@
     margin-top: 20px;
 }
 
-
 @media screen and (max-width: 768px) {
     .service-card {
         width: 100%;
@@ -414,6 +420,7 @@
 }
 
 @media screen and (max-width: 360px) {
+
     .main-service-hd,
     .main-procedure-hd,
     .main-contact-hd {

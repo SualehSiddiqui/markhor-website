@@ -3,12 +3,18 @@ import Container from 'react-bootstrap/Container';
 import { GiGraduateCap } from "react-icons/gi";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import { FaPrescriptionBottle, FaPaperPlane } from "react-icons/fa";
+import SvgComponent from "../components/SvgComponent";
 
 const ProcedureSec = () => {
     return (
         <div className="main-service">
-            <h4 className="procedure-hd mt-3">Procedure</h4>
-            <h1 className="main-procedure-hd">How To Start?</h1>
+            <h4 className="procedure-hd">Procedure</h4>
+            <div className="main-service-hd-1">
+                <h1 className="main-service-hd ">
+                    Our Services
+                </h1>
+                <SvgComponent />
+            </div>
             <Container className="service-container d-flex">
                 <div className="service-card-div">
                     <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex p-4">
