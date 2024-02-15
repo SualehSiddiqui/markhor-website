@@ -54,13 +54,12 @@ export default function Footer() {
         <Container className="footer-container">
           <div className="sub-footer">
             <div className="logo-div">
-              {/* <h1>Markhor</h1> */}
               <img src={FooterLogo} alt="Footer-Logo_Markhor" className="footer-logo" />
             </div>
             <div className="text-div">
               <div className="d-flex">
                 <p>
-                  <FaPhoneAlt className="location-icon" />
+                  <FaPhoneAlt className="location-icon me-1" />
                 </p>
                 <p>
                   <Link to={'tel:++923183253219'} className="text-div-link">
@@ -70,7 +69,7 @@ export default function Footer() {
               </div>
               <div className="d-flex">
                 <p>
-                  <IoLocationOutline className="location-icon" />
+                  <IoLocationOutline className="location-icon me-1" />
                 </p>
                 <p>
                   A455, Block 18 Gulistan, Karachi, Sindh

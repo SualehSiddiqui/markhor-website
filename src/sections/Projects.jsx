@@ -26,7 +26,7 @@ const ProjectSec = () => {
     const [whichProject, setWhichProject] = useState("Logo Design");
 
     return (
-        <div className="main-service">
+        <div className="main-service main-project">
             {/* <h4 className="procedure-hd mt-3">Case Study</h4>
             <h1 className="main-procedure-hd">Our Latest Projects</h1> */}
             <h4 className="procedure-hd">Case Study</h4>

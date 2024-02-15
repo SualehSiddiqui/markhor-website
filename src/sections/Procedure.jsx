@@ -33,7 +33,7 @@ const ProcedureSec = () => {
                         <div className="icon-div">
                             <FaPrescriptionBottle size={60} />
                         </div>
-                        <div className="text-div p-3">
+                        <div className="text-div  p-3">
                             <h4>Initiate Design</h4>
                             <p>Brining your imagination to life</p>
                         </div>
