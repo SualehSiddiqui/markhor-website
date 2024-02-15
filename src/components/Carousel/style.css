@@ -29,3 +29,29 @@
     max-width: 500px;
     font-weight: 500;
 }
+
+@media screen and (max-width:992px){
+    .carousel-div{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:575px){
+    .carousel-div{
+        height: 55vh;
+    }
+    .text-div-carousel {
+        top: 35%;
+    }
+}
+
+@media screen and (max-width:375px){
+    .text-div-carousel {
+        top: 20%;
+    }
+}
+@media screen and (max-width:253px){
+    .text-div-carousel {
+        top: 10%;
+    }
+}

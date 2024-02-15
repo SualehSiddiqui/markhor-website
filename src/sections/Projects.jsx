@@ -2,6 +2,7 @@ import "./style.css";
 import Container from 'react-bootstrap/Container';
 import { Image } from 'antd';
 import { useState } from "react";
+import SvgComponent from "../components/SvgComponent";
 
 //Logo Images
 import hacker from '../assets/Logo/hacker.jpg';
@@ -26,9 +27,16 @@ const ProjectSec = () => {
 
     return (
         <div className="main-service">
-            <h4 className="procedure-hd mt-3">Case Study</h4>
-            <h1 className="main-procedure-hd">Our Latest Projects</h1>
-            <Container className="service-container ">
+            {/* <h4 className="procedure-hd mt-3">Case Study</h4>
+            <h1 className="main-procedure-hd">Our Latest Projects</h1> */}
+            <h4 className="procedure-hd">Case Study</h4>
+            <div className="main-service-hd-1">
+                <h1 className="main-procedure-hd ">
+                    Our Latest Projects
+                </h1>
+                <SvgComponent />
+            </div>
+            <Container className="service-container mt-5">
                 <div>
                     <button
                         className={`logo-button ${whichProject === 'Logo Design' ? 'selected-logo-button' : ''}`}

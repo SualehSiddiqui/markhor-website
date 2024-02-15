@@ -2,6 +2,10 @@ import "./style.css";
 import Container from 'react-bootstrap/Container';
 // import CounterComp from "react-CounterComp";
 import CounterComp from '../components/Counter';
+import { FaClockRotateLeft, FaCheck  } from "react-icons/fa6";
+import { IoPersonOutline } from "react-icons/io5";
+import { AiOutlineTeam } from "react-icons/ai";
+
 
 const CounterSec = () => {
 
@@ -10,6 +14,7 @@ const CounterSec = () => {
             <Container className="service-container">
                 <div className="counter-div">
                     <div className="numbers-div" data-aos-duration="700" data-aos="zoom-in-up">
+                        <h1><AiOutlineTeam /></h1>
                         <h1 >
                             <CounterComp
                                 end={4}
@@ -20,6 +25,7 @@ const CounterSec = () => {
                     </div>
                     <div className="middle-line"></div>
                     <div className="numbers-div" data-aos-duration="700" data-aos="zoom-in-up">
+                        <h1><FaCheck /></h1>
                         <h1>
                             <CounterComp
                                 end={1000}
@@ -28,10 +34,11 @@ const CounterSec = () => {
                                 separator=""
                             />
                         </h1>
-                        <p>Projects Completed</p>
+                        <p>Successfull Projects</p>
                     </div>
                     <div className="middle-line"></div>
                     <div className="numbers-div" data-aos-duration="700" data-aos="zoom-in-up">
+                        <h1><IoPersonOutline /></h1>
                         <h1>
                             <CounterComp
                                 end={100}
@@ -39,10 +46,11 @@ const CounterSec = () => {
                                 afterText="+"
                             />
                         </h1>
-                        <p>Team Of</p>
+                        <p>Workers</p>
                     </div>
                     <div className="middle-line"></div>
                     <div className="numbers-div" data-aos-duration="700" data-aos="zoom-in-up">
+                        <h1><FaClockRotateLeft /></h1>
                         <h1>
                             <CounterComp
                                 end={2022}
@@ -51,7 +59,7 @@ const CounterSec = () => {
                                 separator=""
                             />
                         </h1>
-                        <p>Since</p>
+                        <p>Working From</p>
                     </div>
                 </div>
             </Container>

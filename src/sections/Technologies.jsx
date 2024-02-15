@@ -26,14 +26,21 @@ import core from "../assets/Technologies/Database/core.png";
 import firebase from "../assets/Technologies/Database/firebase.png";
 import mongo from "../assets/Technologies/Database/mongo.png";
 import elasticsearch from "../assets/Technologies/Database/elasticsearch.svg";
+import SvgComponent from "../components/SvgComponent";
 
 const TechnologiesSec = () => {
     const animationDuration = 1000;
-    const animationType ="zoom-in";
+    const animationType = "zoom-in";
     return (
         <div className="main-service main-technologies">
-            <h1 className="main-service-hd mt-3">Technologies we work with</h1>
-            <Container className="service-container ">
+            {/* <h1 className="main-service-hd mt-3">Technologies we work with</h1> */}
+            <div className="main-service-hd-1">
+                <h1 className="main-procedure-hd ">
+                    Technologies we work with
+                </h1>
+                <SvgComponent />
+            </div>
+            <Container className="service-container mt-5">
                 <div className="technologies-1">
                     <div className="tech-hd">
                         <button className="hd-btn">

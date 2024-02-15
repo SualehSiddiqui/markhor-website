@@ -11,7 +11,7 @@ const ProcedureSec = () => {
             <h4 className="procedure-hd">Procedure</h4>
             <div className="main-service-hd-1">
                 <h1 className="main-service-hd ">
-                    Our Services
+                    How To Start?
                 </h1>
                 <SvgComponent />
             </div>
