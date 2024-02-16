@@ -23,10 +23,24 @@ const ContactSec = () => {
         <>
             <div className="background-img-div"></div>
             <div className="main-service main-contact">
-                <Container className="service-container" data-aos-duration="700" data-aos="zoom-in-up">
-                    <h4 className="procedure-hd">Let's Connect</h4>
-                    <h1 className="main-contact-hd">Leave Us Your Details And We’ll Get Back To You</h1>
-                    <Form className="form-div" onSubmit={handleSubmit}>
+                <Container className="service-container">
+                    <h4
+                        className="procedure-hd"
+                        data-aos="fade-right"
+                        // data-aos-offset="300"
+                        data-aos-duration="700"
+                    >
+                        Let's Connect
+                    </h4>
+                    <h1
+                        className="main-contact-hd"
+                        data-aos="fade-left"
+                        // data-aos-offset="300"
+                        data-aos-duration="700"
+                    >
+                        Leave Us Your Details And We’ll Get Back To You
+                    </h1>
+                    <Form className="form-div" onSubmit={handleSubmit} data-aos-duration="700" data-aos="zoom-in-up">
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label className="contact-label">Name *</Form.Label>
                             <Form.Control
@@ -55,7 +69,7 @@ const ContactSec = () => {
                                 className="contact-upload"
                                 type="file"
                                 onChange={e => {
-                                    setResume(e.target.files[0]);  
+                                    setResume(e.target.files[0]);
                                 }}
                             />
                         </Form.Group>

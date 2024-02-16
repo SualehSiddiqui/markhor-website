@@ -33,9 +33,13 @@ const TechnologiesSec = () => {
     const animationType = "zoom-in";
     return (
         <div className="main-service main-technologies">
-            {/* <h1 className="main-service-hd mt-3">Technologies we work with</h1> */}
             <div className="main-service-hd-1">
-                <h1 className="main-procedure-hd ">
+                <h1
+                    className="main-procedure-hd"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="700"
+                >
                     Technologies we work with
                 </h1>
                 <SvgComponent />

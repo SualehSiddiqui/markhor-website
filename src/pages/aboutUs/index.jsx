@@ -42,7 +42,7 @@ const AboutUsPage = () => {
             <div className="sub-main-about">
                 <Container>
                     <div className='service-page-card-div'>
-                        <div className='d-flex sub-service-page-card-div' data-aos-duration="700" data-aos="zoom-in-up" >
+                        <div className='d-flex sub-service-page-card-div' >
                             <div className='service-page-card-img-div about-page-card-img-div d-flex'>
                                 <div className='img-div-service img-div-about'>
                                     <img src={Img02} className='img-service' alt="img-2" />
@@ -52,8 +52,18 @@ const AboutUsPage = () => {
                                 </div>
                             </div>
                             <div className='service-page-card-text-div'>
-                                <h3 className='mb-3'>About Us</h3>
-                                <h1 className='mb-3'>Wo We Are</h1>
+                                <h3
+                                    className='mb-3'
+                                    data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-duration="700"
+                                >About Us</h3>
+                                <h1
+                                    className='mb-3'
+                                    data-aos="fade-left"
+                                    data-aos-offset="300"
+                                    data-aos-duration="700"
+                                >Wo We Are</h1>
                                 <p data-aos="zoom-in-up">
                                     We are individuals that do no settle in for the bare minimum.
                                     We strive for perfection, your satisfaction is our primary goal

@@ -8,9 +8,22 @@ import SvgComponent from "../components/SvgComponent";
 const ProcedureSec = () => {
     return (
         <div className="main-service">
-            <h4 className="procedure-hd">Procedure</h4>
+            <h4
+                className="procedure-hd"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-duration="700"
+            >
+
+                Procedure
+            </h4>
             <div className="main-service-hd-1">
-                <h1 className="main-service-hd ">
+                <h1
+                    className="main-service-hd"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="700"
+                >
                     How To Start?
                 </h1>
                 <SvgComponent />

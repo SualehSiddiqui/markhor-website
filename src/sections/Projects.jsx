@@ -2,7 +2,6 @@ import "./style.css";
 import Container from 'react-bootstrap/Container';
 import { Image } from 'antd';
 import { useState } from "react";
-import SvgComponent from "../components/SvgComponent";
 
 //Logo Images
 import hacker from '../assets/Logo/hacker.jpg';
@@ -27,14 +26,18 @@ const ProjectSec = () => {
 
     return (
         <div className="main-service main-project">
-            {/* <h4 className="procedure-hd mt-3">Case Study</h4>
-            <h1 className="main-procedure-hd">Our Latest Projects</h1> */}
-            <h4 className="procedure-hd">Case Study</h4>
-            <div className="main-service-hd-1">
-                <h1 className="main-procedure-hd ">
+            {/* <h4 className="procedure-hd">Case Study</h4> */}
+            <div className="main-service-hd-1 main-project-hd-1">
+                <h1
+                    className="main-procedure-hd main-project-hd"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="700"
+
+                >
                     Our Latest Projects
                 </h1>
-                <SvgComponent />
+                {/* <SvgComponent /> */}
             </div>
             <Container className="service-container mt-5">
                 <div>

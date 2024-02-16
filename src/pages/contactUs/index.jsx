@@ -3,30 +3,16 @@ import NavbarComp from '../../components/Navbar';
 import Container from 'react-bootstrap/Container';
 import Footer from '../../components/Footer/index.jsx'
 import Flag from '../../assets/ContactUs/flag.jpg'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import AOS from "aos";
 import { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import ContactSec from '../../sections/Contact.jsx';
 
 const ContactUsPage = () => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [resume, setResume] = useState("");
 
     useEffect(() => {
         AOS.init();
     }, [])
-
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        const useData = {
-            name,
-            email,
-            resume
-        }
-        console.log(useData)
-    }
 
     return (
         <div>
@@ -92,7 +78,8 @@ const ContactUsPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="background-img-div" style={{ margin: 0 }}></div>
+            <ContactSec />
+            {/* <div className="background-img-div" style={{ margin: 0 }}></div>
             <div className="main-contact" style={{ margin: 0 }}>
                 <Container className="service-container" data-aos-duration="700" data-aos="zoom-in-up">
                     <h4 className="procedure-hd">Let's Connect</h4>
@@ -135,7 +122,7 @@ const ContactUsPage = () => {
                         </Button>
                     </Form>
                 </Container>
-            </div>
+            </div> */}
             <Footer />
         </div>
     )
