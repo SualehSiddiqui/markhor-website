@@ -12,6 +12,15 @@
     padding-bottom: 100px;
 }
 
+.main-service-div{
+    background-color: black;
+}
+
+.social-card-div{
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+
 .main-project,
 .main-counter{
     background-color: var(--card-bg);
@@ -44,17 +53,40 @@
     flex-wrap: wrap;
     gap: 3;
 }
+.background-image-card{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
 
-.service-card {
-    width: 270px;
-    height: 500px;
-    background-color: var(--card-bg);
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 20px;
+.social-card-div{
+    background-image: url('../assets/Service/Cards/social.jpg');
+}
+
+.brand-identity-div{
+    background-image: url('../assets/Service/Cards/brand.avif');
+}
+
+.front-div-card{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.service-card {
+    width: 470px;
+    height: 690px;
+    background-color: var(--card-bg);
+    /* border-radius: 8px; */
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .service-card:hover {
@@ -94,6 +126,7 @@
     margin-top: 10px;
     overflow-y: scroll;
     text-align: center;
+    color: white;
 }
 
 /* Procedure */
