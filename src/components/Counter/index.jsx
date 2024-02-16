@@ -6,7 +6,7 @@ const CounterComp = (props) => {
     const { afterText } = props;
     const [counterOn, setCounerOn] = useState(false)
     return (
-        <ScrollTrigger onEnter={() => setCounerOn(true)} onExit={() => setCounerOn(false)}>
+        <ScrollTrigger onEnter={() => setCounerOn(true)}>
             {counterOn && <CountUp {...props} />}{afterText ? afterText : ""}
         </ScrollTrigger>
     )
