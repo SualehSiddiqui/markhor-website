@@ -19,7 +19,7 @@
 
 .main-service-hd-1 {
     width: 100%;
-    height: 90px;
+    min-height: 90px;
     background-color: var(--second-color);
     position: relative;
 }
@@ -32,6 +32,7 @@
     font-size: 60px;
     text-transform: capitalize;
     color: var(--hd-text-color);
+    margin-bottom: 0;
 }
 
 .service-card-div {
