@@ -17,37 +17,37 @@ const ContactUsPage = () => {
     return (
         <div>
             <NavbarComp />
-                <div className='mid-section mid-section-1'>
-                    <div className='shape-svg-container'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className='contact-svg' viewBox="0 0 1000 100" preserveAspectRatio="none">
-                            <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
-                        </svg>
-                    </div>
-                    <Container >
-                        <div className='page-name-div'>
-                            <TypeAnimation
-                                sequence={[
-                                    'Contact Us',
-                                ]}
-                                wrapper="h1"
-                                speed={10}
-                                repeat={0}
-                                className='service-page-main-hd'
-                                cursor={false}
-                            />
-                            <TypeAnimation
-                                sequence={[
-                                    'If You Need Any Help! Contact With Us.',
-                                ]}
-                                wrapper="h1"
-                                speed={10}
-                                repeat={0}
-                                className='service-page-main-hd mt-5'
-                                cursor={false}
-                            />
-                        </div>
-                    </Container>
+            <div className='mid-section mid-section-1'>
+                <div className='shape-svg-container'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className='contact-svg' viewBox="0 0 1000 100" preserveAspectRatio="none">
+                        <path className="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z" fill="#FFFFFF"></path>
+                    </svg>
                 </div>
+                <Container >
+                    <div className='page-name-div'>
+                        <TypeAnimation
+                            sequence={[
+                                'Contact Us',
+                            ]}
+                            wrapper="h1"
+                            speed={10}
+                            repeat={0}
+                            className='service-page-main-hd'
+                            cursor={false}
+                        />
+                        <TypeAnimation
+                            sequence={[
+                                'If You Need Any Help! Contact With Us.',
+                            ]}
+                            wrapper="h1"
+                            speed={10}
+                            repeat={0}
+                            className='service-page-main-hd mt-5'
+                            cursor={false}
+                        />
+                    </div>
+                </Container>
+            </div>
             <div className='mid-section-2'>
                 <Container >
                     <div className='address-div flag-div-main'>
