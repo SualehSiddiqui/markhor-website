@@ -1,29 +1,28 @@
 import '../style.css';
-import NavbarComp from '../../../components/Navbar';
+import NavbarComp from '../../../components/Navbar/index.jsx';
 import Container from 'react-bootstrap/Container';
 import Footer from '../../../components/Footer/index.jsx';
 import AOS from "aos";
 import { useEffect } from 'react';
-import { TypeAnimation } from 'react-type-animation';
-import Banner1 from '../../../assets/WebDevelopement/banner1.jpg'
-import Banner2 from '../../../assets/WebDevelopement/Banner2.webp'
-import Banner3 from '../../../assets/WebDevelopement/Banner3.webp'
+import Banner1 from '../../../assets/SocialMediaMarketing/Banner1.webp'
+import Banner2 from '../../../assets/SocialMediaMarketing/Banner2.webp'
+import Banner3 from '../../../assets/SocialMediaMarketing/Banner3.webp'
 
-const WebDevPage = () => {
+const SocialPage = () => {
     useEffect(() => {
         AOS.init();
     }, [])
     return (
         <>
             <NavbarComp />
-            <div className="main-web">
+            <div className="main-web main-social">
                 <Container>
                     <div className='web-hero-text-div'>
-                        <p>Web Design & Development</p>
+                        <p>Social Media Marketing</p>
                         <span >
-                            Your online platform ought to captivate, not bewilder your guests. A flawless fusion of
-                            excellent user interaction and visually pleasing layout can spark expansion - we're here to
-                            assist you in achieving that.
+                            Your online platform ought to entice, not befuddle, your site visitors. A harmonious fusion of
+                            seamless user experience and visually captivating design has the potential to spark exponential
+                            growth - let us guide you to that pinnacle.
                         </span>
                     </div>
                 </Container>
@@ -31,11 +30,10 @@ const WebDevPage = () => {
             <Container className='mb-5'>
                 <div className='d-flex sub-service-page-card-div' data-aos-duration="700" data-aos="zoom-in-up" >
                     <div className='service-page-card-text-div'>
-                        <h1 className='mb-3'>Enhance outreach and amplify influence. Embrace responsiveness!</h1>
+                        <h1 className='mb-3'>Boost reach, amplify impact: Go responsive!</h1>
                         <p data-aos="zoom-in-up">
-                            You require a website that adjusts to every screen dimension. No loading lags,
-                            no navigation complications, and no performance issues. Only outcomes. That's our
-                            specialty.
+                            You require a digital marketing strategy that seamlessly adjusts to various platforms. No lagging
+                            load times, no navigation hiccups, and no performance glitches. Only tangible outcomes. That's our expertise.
                         </p>
                     </div>
                     <div className='service-page-card-img-div'>
@@ -47,13 +45,13 @@ const WebDevPage = () => {
                         <img src={Banner2} alt="Banner3" className='service-page-card-img' />
                     </div>
                     <div className='service-page-card-text-div mt-100px'>
-                        <p data-aos="zoom-in-up" style={{ textTransform: "uppercase" }} >
-                            Refuse to accept a mediocre website!
+                        <p data-aos="zoom-in-up" >
+                            DON'T SETTLE FOR ORDINARY DIGITAL PRESENCE!
                         </p>
                         <h1 className='mb-3'>Let’s create a web masterpiece together!</h1>
                         <p data-aos="zoom-in-up">
-                            We create digital elements with compassion. Exceptional design transcends mere
-                            appearances. It involves forging an empathetic bond with those who interact with it.
+                            We weave digital threads with empathy. Exceptional digital marketing transcends aesthetics alone.
+                            It's about forging a profound emotional bond with your online audience.
                         </p>
                     </div>
                 </div>
@@ -61,11 +59,11 @@ const WebDevPage = () => {
             <div className="main-web-2 mb-5">
                 <Container className='main-web-2-container'>
                     <div className='web-2-text-div' data-aos-duration="700" data-aos="zoom-in-up">
-                        <p>We excel at creating websites that delight your users!</p>
+                        <p>Crafting digital campaigns that captivate and convert.</p>
                         <span >
-                            What are your impressions of our website? Is it visually appealing? User-friendly? We have
-                            the capability to develop an enhanced iteration tailored specifically to your industry, finely
-                            tuned for optimal performance.
+                            How do you find our website? Does it possess an appealing aesthetic? Is navigation smooth and intuitive? Let's
+                            craft an enhanced iteration tailored precisely to your niche, meticulously optimized for maximum digital marketing
+                            impact.
                         </span>
                     </div>
                     <div className='web-2-img-div' data-aos-duration="700" data-aos="zoom-in">
@@ -79,4 +77,4 @@ const WebDevPage = () => {
     )
 }
 
-export default WebDevPage;
+export default SocialPage;

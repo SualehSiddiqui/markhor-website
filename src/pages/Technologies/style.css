@@ -1,0 +1,134 @@
+.main-web {
+    width: 100%;
+    height: 525px;
+    background-image: url('../../assets/WebDevelopement/64e5c32ff0a5974ee6264d81_web-design.webp');
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.main-app {
+    background-image: url('../../assets/MobileAppDevelopement/64f6b74ec304019c72134eaa_mobile\ app.webp');
+}
+
+.main-brand-identity {
+    background-image: url('../../assets/BrandIdentity/64f6b9a89aea95f14a377d89_ui-ux.webp');
+}
+
+.main-digital {
+    background-image: url('../../assets/DigitalMarketing/64f7f731d2bc4a19c8b3b39c_mvp.webp');
+}
+
+.main-graphic {
+    background-image: url('../../assets/GraphicDesigning/64de0dd787950ac0909fca5b_Sass\ banner.webp');
+}
+
+.main-motion {
+    background-image: url('../../assets/MotionGraphics/64dc8dc710991839fafa216c_Webflow\ Banner\ Image.webp');
+}
+
+.main-social {
+    background-image: url('../../assets/SocialMediaMarketing/64ec3667da9f385007dd7515_Branding.webp');
+}
+
+.main-tele {
+    background-image: url('../../assets/Telemarketing/64f7f797f9ccd5d7fc3ff26c_design-system.webp');
+}
+
+.web-hero-text-div {
+    width: 450px;
+}
+
+.web-2-text-div {
+    max-width: 500px;
+}
+
+.web-hero-text-div>p,
+.web-2-text-div>p {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.web-2-text-div>p {
+    color: black;
+}
+
+.web-hero-text-div>span,
+.web-2-text-div>span {
+    color: rgb(91, 102, 113);
+    font-size: 20px;
+}
+
+.main-web-2 {
+    width: 100%;
+    min-height: 525px;
+    background-color: #1aff85;
+    background-image: none;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.main-web-2-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.web-2-img-div {
+    width: 500px;
+    height: 300px;
+}
+
+.web-2-img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-web-2-container {
+        flex-direction: column-reverse;
+        /* justify-content: ; */
+    }
+
+    .web-2-text-div {
+        width: 100%;
+    }
+
+    .web-2-img-div {
+        width: 80%;
+        height: 500px;
+    }
+
+    .main-web-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-web {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .web-2-text-div {
+        width: 100%;
+    }
+
+    .web-2-img-div {
+        width: 100%;
+        height: 300px;
+    }
+
+    .main-web-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

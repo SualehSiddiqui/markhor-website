@@ -34,7 +34,7 @@ const ServiceSec = () => {
                 <div className="service-card-div">
                     <div className="main-service-card" data-aos="fade-down-right" data-aos-offset="300" data-aos-delay="300" data-aos-duration="700">
                         <div>
-                            <Link to={'/WebDevelopement'} className="service-link">
+                            <Link to={'/SocialMediaMarketing'} className="service-link">
                                 <div className="service-card">
                                     <img src={Social} alt="" className="card-img" />
                                     {/* <div className="background-image-card social-card-div"></div> */}
@@ -400,74 +400,74 @@ const ServiceSec = () => {
                             </Link>
                         </div>
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/WebDevelopement'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Web Develpement</h1>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/BrandIdentity'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Brand Identity</h1>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/DigitalMarketing'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Digital Marketing</h1>
                                 </div>
                             </Link>
                         </div>
                     </div>
                     <div data-aos="fade-up-left" data-aos-delay="300" data-aos-duration="700">
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/GraphicDesigning'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Graphic Designing</h1>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/MotionGraphics'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Motion Graphics</h1>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/MobileAppDevelopement'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Mobile App Developement</h1>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to={'/service'} className="service-link">
+                            <Link to={'/Telemarketing'} className="service-link">
                                 <div className="service-card">
                                     <img src={Brand} alt="" className="card-img" />
                                 </div>
                                 <div className="sercvice-card-text-div">
-                                    <h1>Social Media Management</h1>
+                                    <h1>Tele marketing</h1>
                                 </div>
                             </Link>
                         </div>

@@ -4,10 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Footer from '../../../components/Footer/index.jsx';
 import AOS from "aos";
 import { useEffect } from 'react';
-import { TypeAnimation } from 'react-type-animation';
-import Banner1 from '../../../assets/WebDevelopement/banner1.jpg'
-import Banner2 from '../../../assets/WebDevelopement/Banner2.webp'
-import Banner3 from '../../../assets/WebDevelopement/Banner3.webp'
+import Banner1 from '../../../assets/MobileAppDevelopement/Banner1.webp'
+import Banner2 from '../../../assets/MobileAppDevelopement/Banner2.webp'
+import Banner3 from '../../../assets/MobileAppDevelopement/Banner3.webp'
 
 const WebDevPage = () => {
     useEffect(() => {
@@ -16,14 +15,15 @@ const WebDevPage = () => {
     return (
         <>
             <NavbarComp />
-            <div className="main-web">
+            <div className="main-web main-app">
                 <Container>
                     <div className='web-hero-text-div'>
-                        <p>Web Design & Development</p>
+                        <p>Mobile App Design</p>
                         <span >
-                            Your online platform ought to captivate, not bewilder your guests. A flawless fusion of
-                            excellent user interaction and visually pleasing layout can spark expansion - we're here to
-                            assist you in achieving that.
+                            Is your application layout causing a loss of users? Poor user experience
+                            and intrusive notifications create difficulties for them. You must take action
+                            swiftly before they uninstall it permanently. We are capable of resolving this
+                            issue for you.
                         </span>
                     </div>
                 </Container>
@@ -31,11 +31,11 @@ const WebDevPage = () => {
             <Container className='mb-5'>
                 <div className='d-flex sub-service-page-card-div' data-aos-duration="700" data-aos="zoom-in-up" >
                     <div className='service-page-card-text-div'>
-                        <h1 className='mb-3'>Enhance outreach and amplify influence. Embrace responsiveness!</h1>
+                        <h1 className='mb-3'>Deliver tailored experiences, not one-size-fits-all!</h1>
                         <p data-aos="zoom-in-up">
-                            You require a website that adjusts to every screen dimension. No loading lags,
-                            no navigation complications, and no performance issues. Only outcomes. That's our
-                            specialty.
+                            Avoid causing annoyance to visitors by presenting them with intricate interfaces and menus.
+                            Ensure that your app aligns with your platform to deliver a straightforward and familiar user experience.
+                            Allow us to assist you in achieving this goal.
                         </p>
                     </div>
                     <div className='service-page-card-img-div'>
@@ -47,13 +47,10 @@ const WebDevPage = () => {
                         <img src={Banner2} alt="Banner3" className='service-page-card-img' />
                     </div>
                     <div className='service-page-card-text-div mt-100px'>
-                        <p data-aos="zoom-in-up" style={{ textTransform: "uppercase" }} >
-                            Refuse to accept a mediocre website!
-                        </p>
-                        <h1 className='mb-3'>Let’s create a web masterpiece together!</h1>
+                        <h1 className='mb-3'>Create with the aim of pleasing your users, rather than solely focusing on your preferences!</h1>
                         <p data-aos="zoom-in-up">
-                            We create digital elements with compassion. Exceptional design transcends mere
-                            appearances. It involves forging an empathetic bond with those who interact with it.
+                            Crafting an app that becomes indispensable for users is quite challenging. 98% of attempts fall short. Allow us to assist
+                            you in developing an app that users will rely on as a vital resource.
                         </p>
                     </div>
                 </div>
@@ -61,11 +58,11 @@ const WebDevPage = () => {
             <div className="main-web-2 mb-5">
                 <Container className='main-web-2-container'>
                     <div className='web-2-text-div' data-aos-duration="700" data-aos="zoom-in-up">
-                        <p>We excel at creating websites that delight your users!</p>
+                        <p>We create applications that distinguish themselves and attract attention!</p>
                         <span >
-                            What are your impressions of our website? Is it visually appealing? User-friendly? We have
-                            the capability to develop an enhanced iteration tailored specifically to your industry, finely
-                            tuned for optimal performance.
+                            You possess a concept for an application, and we possess adeptness in design. With over 120 applications
+                            spanning various domains, we can seamlessly incorporate artificial intelligence (AI), augmented reality (AR),
+                            and virtual reality (VR). Elevate your application to contemporary standards and ensure its triumph.
                         </span>
                     </div>
                     <div className='web-2-img-div' data-aos-duration="700" data-aos="zoom-in">
