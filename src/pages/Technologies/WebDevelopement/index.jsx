@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Footer from '../../../components/Footer/index.jsx';
 import AOS from "aos";
 import { useEffect } from 'react';
-import { TypeAnimation } from 'react-type-animation';
 import Banner1 from '../../../assets/WebDevelopement/banner1.jpg'
 import Banner2 from '../../../assets/WebDevelopement/Banner2.webp'
 import Banner3 from '../../../assets/WebDevelopement/Banner3.webp'

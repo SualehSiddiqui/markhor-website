@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Footer from '../../components/Footer/index.jsx'
 import Flag from '../../assets/ContactUs/flag.jpg'
 import AOS from "aos";
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import ContactSec from '../../sections/Contact.jsx';
 
