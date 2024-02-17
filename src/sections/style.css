@@ -91,6 +91,7 @@
     transition-duration: 0.5s;
     transition-timing-function: ease;
     overflow: hidden;
+    border: 1px solid white;
 }
 
 .service-card:hover {

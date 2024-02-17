@@ -19,10 +19,12 @@ import GraphicPage from "../pages/Technologies/GraphicDesigning/index.jsx";
 import MotionPage from "../pages/Technologies/MotionGraphics/index.jsx";
 import SocialPage from "../pages/Technologies/SocialMediaMarketing/index.jsx";
 import TelePage from "../pages/Technologies/Telemarketing/index.jsx";
+import ScrollToTop from "../components/ScrollToTop/index.jsx";
 
 const RoutesPages = () => {
     return (
         <Router>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/ContactUs" element={<ContactUsPage />} />

@@ -1,10 +1,10 @@
 import './style.css';
 import { Carousel } from 'antd';
 import Container from 'react-bootstrap/Container';
-import First from '../../assets/Carousel/1.png'
-import Two from '../../assets/Carousel/2.png'
-import Three from '../../assets/Carousel/3.png'
-import Four from '../../assets/Carousel/4.png'
+import First from '../../assets/Carousel/First.jpg'
+import Second from '../../assets/Carousel/Second.jpg'
+import Third from '../../assets/Carousel/Third.jpg'
+import Fourth from '../../assets/Carousel/Fourth.jpg'
 
 const CorouselComp = () => (
     <Carousel autoplay className='carousel-div' fade speed={1000} autoplaySpeed	={5000}>
@@ -25,7 +25,7 @@ const CorouselComp = () => (
                     </p>
                 </Container>
             </div>
-            <img src={Two} alt="Mobile App Devlopement" className='carousel-image' />
+            <img src={Second} alt="Mobile App Devlopement" className='carousel-image' />
         </div>
         <div className='carousel-div'>
             <div className='text-div-carousel'>
@@ -34,7 +34,7 @@ const CorouselComp = () => (
                         Our innovative software development process enables us to provide best quality in low price.</p>
                 </Container>
             </div>
-            <img src={Three} alt="Motion Graphics" className='carousel-image' />
+            <img src={Third} alt="Motion Graphics" className='carousel-image' />
         </div>
         <div className='carousel-div'>
             <div className='text-div-carousel'>
@@ -49,7 +49,7 @@ const CorouselComp = () => (
                     </p>
                 </Container>
             </div>
-            <img src={Four} alt="Graphic Desinging" className='carousel-image' />
+            <img src={Fourth} alt="Graphic Desinging" className='carousel-image' />
         </div>
     </Carousel>
 );
