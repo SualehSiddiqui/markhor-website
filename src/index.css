@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  /* --golden-color: #d0b53d; */
   --golden-color: #ffb606;
-  /* --footer-color: #0a2121; */
   --footer-color: #242424;
-  /* --second-color: #024342; */
   --second-color: #424242;
   --hd-text-color: #fff;
   --second-color-opacity: rgba(66, 66, 66,0.7);

@@ -22,10 +22,11 @@
     background-color: var(--card-bg);
 }
 
-.main-project{
-    background-image: url('../assets/Project/background-img.webp');
+.main-project {
+    background-image: url('../assets/Procedure/background-img.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 
 .main-service-hd-1 {
@@ -43,14 +44,16 @@
 .main-procedure-hd,
 .main-contact-hd {
     text-align: center;
-    font-weight: 650;
+    font-weight: 400;
     font-size: 60px;
     text-transform: capitalize;
     color: var(--hd-text-color);
     margin-bottom: 0;
+    z-index: 0;
+    height: 80px;
 }
 
-.main-project-hd{
+.main-project-hd {
     color: black;
 }
 
@@ -72,12 +75,12 @@
     z-index: -1;
 }
 
-.service-link{
+.service-link {
     text-decoration: none;
     color: #ffffff;
 }
 
-.service-link:hover{
+.service-link:hover {
     color: var(--golden-color);
 }
 
@@ -91,7 +94,7 @@
     transition-duration: 0.5s;
     transition-timing-function: ease;
     overflow: hidden;
-    border: 1px solid white;
+    border: 1px solid var(--golden-color);
 }
 
 .service-card:hover {
@@ -127,24 +130,48 @@
     text-transform: capitalize;
 }
 
-.procedure-card {
-    width: 324.3px;
-    height: 161px;
-    background-color: var(--card-bg);
-    margin-top: 20px;
+.procedure-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.procedure-card:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.procedure-card {
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .icon-div {
     background-color: #ffffff;
-    width: 150px;
-    height: 100px;
+    width: 230px;
+    height: 230px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-    border-radius: 8px;
+    border-radius: 50%;
     color: var(--golden-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sub-icon-div {
+    background-color: black;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    position: absolute;
+    right: -70px;
+}
+
+.sub-icon-div {
+    color: #ffffff;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,14 +182,33 @@
     color: white;
 }
 
-.text-div>h4 {
+.procedure-text-div>h4 {
     font-size: 20px;
     color: black;
 }
 
-.text-div>p {
+.procedure-text-div>p {
     font-size: 14px;
     color: slategray;
+}
+
+.contact-now-button {
+    width: 190px !important;
+    height: 50px !important;
+    border-radius: 24px !important;
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-now-button:hover {
+    background-color: var(--second-color) !important;
+    /* color: var(--golden-color) !important; */
+}
+
+.contact-now-link {
+    text-decoration: none;
 }
 
 /* Work */

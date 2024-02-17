@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from "react";
 import { MdDoubleArrow } from "react-icons/md";
-import FooterLogo from "../../assets/Footer/footer-logo-removebg-preview.png";
+import FooterLogo from "../../assets/Footer/footer-logo.png";
 
 const pages = [
   {
@@ -72,7 +72,7 @@ export default function Footer() {
                   <IoLocationOutline className="location-icon me-1" />
                 </p>
                 <p>
-                  A455, Block 18 Gulistan, Karachi, Sindh
+                  Fedreal. B Area, BLock#14, Karachi, Sindh
                 </p>
               </div>
             </div>

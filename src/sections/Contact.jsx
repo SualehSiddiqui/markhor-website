@@ -27,7 +27,6 @@ const ContactSec = () => {
                     <h4
                         className="procedure-hd"
                         data-aos="fade-right"
-                        // data-aos-offset="300"
                         data-aos-duration="700"
                     >
                         Let's Connect
@@ -35,7 +34,6 @@ const ContactSec = () => {
                     <h1
                         className="main-contact-hd"
                         data-aos="fade-left"
-                        // data-aos-offset="300"
                         data-aos-duration="700"
                     >
                         Leave Us Your Details And We’ll Get Back To You

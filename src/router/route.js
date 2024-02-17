@@ -24,7 +24,7 @@ import ScrollToTop from "../components/ScrollToTop/index.jsx";
 const RoutesPages = () => {
     return (
         <Router>
-            <ScrollToTop />
+            {/* <ScrollToTop /> */}
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/ContactUs" element={<ContactUsPage />} />
