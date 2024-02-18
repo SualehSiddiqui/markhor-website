@@ -8,6 +8,8 @@ import Button from 'react-bootstrap/Button';
 import { useState } from "react";
 import { MdDoubleArrow } from "react-icons/md";
 import FooterLogo from "../../assets/Footer/footer-logo.png";
+import { FiTwitter } from "react-icons/fi";
+
 
 const pages = [
   {
@@ -38,6 +40,29 @@ const pages = [
     name: "Refund Policy",
     link: "/RefundPolicy",
   },
+]
+
+const services = [
+  {
+    name: "Social Media Marketing",
+    link: "/SocialMediaMarketing"
+  },
+  {
+    name: "Web Developement",
+    link: "/WebDevelopement"
+  },
+  {
+    name: "Digital Marketing",
+    link: "/DigitalMarketing"
+  },
+  {
+    name: "Ui/Ux Designing",
+    link: "/UiDesigning"
+  },
+  {
+    name: "Motion Graphics",
+    link: "/MotionGraphics"
+  }
 ]
 
 export default function Footer() {
@@ -97,14 +122,21 @@ export default function Footer() {
                 }
               </ul>
               <div className="d-flex">
-                <div className="footer-icons-div mt-1 me-2">
-                  <FaFacebookF />
-                </div>
-                <div className="footer-icons-div mt-1 me-2">
-                  <FaInstagram />
-                </div>
+                <Link to={'https://www.facebook.com/profile.php?id=61553390727588&mibextid=ZbWKwL'} target="_blank">
+                  <div className="footer-icons-div mt-1 me-2">
+                    <FaFacebookF />
+                  </div>
+                </Link>
+                <Link to={'https://www.instagram.com/markhorsolution.co?igsh=MTZ6Z2hucm15dHozMg=='} target="_blank">
+                  <div className="footer-icons-div mt-1 me-2">
+                    <FaInstagram />
+                  </div>
+                </Link>
                 <div className="footer-icons-div mt-1 me-2">
                   <FaLinkedin />
+                </div>
+                <div className="footer-icons-div mt-1 me-2">
+                  <FiTwitter />
                 </div>
               </div>
             </div>
@@ -129,6 +161,27 @@ export default function Footer() {
                   Submit
                 </Button>
               </Form>
+            </div>
+          </div>
+          <div className="sub-footer quick-links-div">
+            <div className="logo-div">
+              <h1>Services</h1>
+            </div>
+            <div className="text-div footer-link-div">
+              <ul>
+                {
+                  services.map((v, i) => {
+                    return (
+                      <li key={i}>
+                        <Link to={v.link} className="footer-links">
+                          <MdDoubleArrow className="footer-list-icons" />
+                          {v.name}
+                        </Link>
+                      </li>
+                    )
+                  })
+                }
+              </ul>
             </div>
           </div>
         </Container>

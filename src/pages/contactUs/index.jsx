@@ -71,7 +71,7 @@ const ContactUsPage = () => {
                     <div className='country-div'>
                         <h2>Pakistan</h2>
                         <p>
-                            +92 336 3869414
+                            +92 318 3253219
                             <br />
                             Karachi, Pakistan
                         </p>
@@ -79,50 +79,6 @@ const ContactUsPage = () => {
                 </div>
             </div>
             <ContactSec />
-            {/* <div className="background-img-div" style={{ margin: 0 }}></div>
-            <div className="main-contact" style={{ margin: 0 }}>
-                <Container className="service-container" data-aos-duration="700" data-aos="zoom-in-up">
-                    <h4 className="procedure-hd">Let's Connect</h4>
-                    <h1 className="main-contact-hd">Leave Us Your Details And We’ll Get Back To You</h1>
-                    <Form className="form-div" onSubmit={handleSubmit}>
-                        <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label className="contact-label">Name *</Form.Label>
-                            <Form.Control
-                                className="contact-input"
-                                type="text"
-                                placeholder="Enter your name"
-                                onChange={e => {
-                                    setName(e.target.value);
-                                }}
-                            />
-                        </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label className="contact-label">Email Address *</Form.Label>
-                            <Form.Control
-                                className="contact-input"
-                                type="email"
-                                placeholder="Enter email"
-                                onChange={e => {
-                                    setEmail(e.target.value);
-                                }}
-                            />
-                        </Form.Group>
-                        <Form.Group controlId="formFile" className="mb-3">
-                            <Form.Label className="contact-label">Resume Upload</Form.Label>
-                            <Form.Control
-                                className="contact-upload"
-                                type="file"
-                                onChange={e => {
-                                    setResume(e.target.files[0]);
-                                }}
-                            />
-                        </Form.Group>
-                        <Button variant="primary" className="contact-submit" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
-                </Container>
-            </div> */}
             <Footer />
         </div>
     )

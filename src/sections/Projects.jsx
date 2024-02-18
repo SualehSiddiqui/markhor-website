@@ -1,26 +1,47 @@
 import "./style.css";
 import Container from 'react-bootstrap/Container';
-import { Image } from 'antd';
+// import { Image } from 'antd';
 import { useState } from "react";
 import SvgComponent from "../components/SvgComponent";
 
 //Logo Images
-import hacker from '../assets/Logo/hacker.jpg';
-import Import from '../assets/Logo/import.jpg';
-import skeleton from '../assets/Logo/skeleton.jpg';
-import vpn from '../assets/Logo/vpn.jpg';
-import against from '../assets/Logo/against.jpg';
-import mini from '../assets/Logo/mini.jpg';
-import fitness from '../assets/Logo/fitness.jpg';
-import zore from '../assets/Logo/zore.jpg';
+import FirstLogo from '../assets/Logo/FirstLogo.mp4';
+import SecondLogo from '../assets/Logo/SecondLogo.mp4';
+import ThirdLogo from '../assets/Logo/ThirdLogo.mp4';
+import FourthLogo from '../assets/Logo/FourthLogo.mp4';
+import FifthLogo from '../assets/Logo/FifthLogo.mp4';
+import SixthLogo from '../assets/Logo/SixthLogo.mp4';
+import SeventhLogo from '../assets/Logo/SeventhLogo.mp4';
+import EightLogo from '../assets/Logo/EightLogo.mp4';
+import NinthLogo from '../assets/Logo/NinthLogo.mp4';
 
-//Webistes Images 
-import three from '../assets/Websites/3in-scaled.jpg';
-import five from '../assets/Websites/5in-scaled.jpg';
-import six1 from '../assets/Websites/7in-scaled.jpg';
-import six2 from '../assets/Websites/6in-scaled.jpg';
-import eight from '../assets/Websites/8in-scaled.jpg';
-import nine from '../assets/Websites/9in-scaled.jpg';
+
+//Overlay Images 
+import FirstOverlay from '../assets/Overlay/FirstOverLay.mp4';
+import SecondOverlay from '../assets/Overlay/SecondOverLay.mp4';
+import ThirdOverlay from '../assets/Overlay/ThirdOverLay.mp4';
+import FourthOverlay from '../assets/Overlay/FourthOverLay.mp4';
+import FifthOverlay from '../assets/Overlay/FifthOverLay.mp4';
+import SixthOverlay from '../assets/Overlay/SixthOverLay.mp4';
+import SeventhOverlay from '../assets/Overlay/SeventhOverLay.mp4';
+import EightOverlay from '../assets/Overlay/EightOverLay.mp4';
+
+
+//Banners Images
+import FirstBanner from '../assets/Banner/First.jpg';
+import SecondBanner from '../assets/Banner/Second.jpg';
+import ThirdBanner from '../assets/Banner/Third.jpg';
+import FourthBanner from '../assets/Banner/Fourth.jpg';
+import FifthBanner from '../assets/Banner/Fifth.jpg';
+import SixthBanner from '../assets/Banner/Sixth.jpg';
+import SeventhBanner from '../assets/Banner/Seventh.jpg';
+import EighthBanner from '../assets/Banner/Eight.jpg';
+import NinthBanner from '../assets/Banner/Ninth.jpg';
+import TenthBanner from '../assets/Banner/Tenth.jpg';
+import EleventhBanner from '../assets/Banner/Eleventh.jpg';
+import TwevelvethBanner from '../assets/Banner/Twevelveth.jpg';
+import ThirteenthBanner from '../assets/Banner/Thirteenth.jpg';
+import ForthenthBanner from '../assets/Banner/Forthenth.jpg';
 
 const ProjectSec = () => {
     const [whichProject, setWhichProject] = useState("Logo Design");
@@ -55,16 +76,16 @@ const ProjectSec = () => {
                         Logo Design
                     </button>
                     <button
-                        className={`logo-button ${whichProject === 'Websites' ? 'selected-logo-button' : ''}`}
-                        onClick={() => setWhichProject('Websites')}
+                        className={`logo-button ${whichProject === 'Banners' ? 'selected-logo-button' : ''}`}
+                        onClick={() => setWhichProject('Banners')}
                     >
-                        Websites
+                        Banners
                     </button>
                     <button
-                        className={`logo-button ${whichProject === 'Mobile Apps' ? 'selected-logo-button' : ''}`}
-                        onClick={() => setWhichProject('Mobile Apps')}
+                        className={`logo-button ${whichProject === 'Overlay' ? 'selected-logo-button' : ''}`}
+                        onClick={() => setWhichProject('Overlay')}
                     >
-                        Mobile Apps
+                        Overlay
                     </button>
                 </div>
                 <div className="main-img-container">
@@ -72,153 +93,200 @@ const ProjectSec = () => {
                         whichProject === "Logo Design" ?
                             <div className="logo-container">
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={hacker}
-                                    />
+                                    <video className="image" autoPlay loop src={FirstLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={Import}
-                                    />
+                                    <video className="image" autoPlay loop src={SecondLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={against}
-                                    />
+                                    <video className="image" autoPlay loop src={ThirdLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={fitness}
-                                    />
+                                    <video className="image" autoPlay loop src={FourthLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={mini}
-                                    />
+                                    <video className="image" autoPlay loop src={FifthLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={skeleton}
-                                    />
+                                    <video className="image" autoPlay loop src={SixthLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={vpn}
-                                    />
+                                    <video className="image" autoPlay loop src={SeventhLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
+                                    <video className="image" autoPlay loop src={EightLogo} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
+                                    <video className="image" autoPlay loop src={NinthLogo} muted type="video/mp4" />
+                                </div>
+                            </div>
+                            : ''}
+                    {
+                        whichProject === "Banners" ?
+                            <div className="logo-container">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
                                         className="image"
-                                        src={zore}
+                                        src={FirstBanner}
+                                        alt="FirstBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={SecondBanner}
+                                        alt="SecondBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={ThirdBanner}
+                                        alt="ThirdBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={FourthBanner}
+                                        alt="FourthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={FifthBanner}
+                                        alt="FifthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={SixthBanner}
+                                        alt="SixthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={SeventhBanner}
+                                        alt="SeventhBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={EighthBanner}
+                                        alt="EighthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={NinthBanner}
+                                        alt="NinthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={TenthBanner}
+                                        alt="TenthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={EleventhBanner}
+                                        alt="EleventhBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={TwevelvethBanner}
+                                        alt="TwevelvethBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={ThirteenthBanner}
+                                        alt="ThirteenthBanner"
+                                    />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <img
+                                        className="image"
+                                        src={ForthenthBanner}
+                                        alt="ForthenthBanner"
                                     />
                                 </div>
                             </div>
                             : ''}
                     {
-                        whichProject === "Websites" ?
+                        whichProject === "Overlay" ?
                             <div className="logo-container">
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card website-card">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={FirstOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={SecondOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={ThirdOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={FourthOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={FifthOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={SixthOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={SeventhOverlay} muted type="video/mp4" />
+                                </div>
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
+                                    <video className="image" autoPlay loop src={EightOverlay} muted type="video/mp4" />
+                                </div>
+                                {/* <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <img
-                                        className="website-image"
-                                        src={three}
-                                        alt="three"
+                                        className="image"
+                                        src={NinthBanner}
                                     />
                                 </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card website-card">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <img
-                                        className="website-image"
-                                        src={five}
-                                        alt="three"
+                                        className="image"
+                                        src={TenthBanner}
                                     />
                                 </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card website-card">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <img
-                                        className="website-image"
-                                        src={six1}
-                                        alt="three"
+                                        className="image"
+                                        src={EleventhBanner}
                                     />
                                 </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card website-card">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <img
-                                        className="website-image"
-                                        src={six2}
-                                        alt="three"
+                                        className="image"
+                                        src={TwevelvethBanner}
                                     />
                                 </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card website-card">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <img
-                                        className="website-image"
-                                        src={eight}
-                                        alt="three"
+                                        className="image"
+                                        src={ThirteenthBanner}
                                     />
                                 </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card website-card">
+                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <img
-                                        className="website-image"
-                                        src={nine}
-                                        alt="three"
-                                    />
-                                </div>
-                            </div>
-                            : ''}
-                    {
-                        whichProject === "Mobile Apps" ?
-                            <div className="logo-container">
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
                                         className="image"
-                                        src={hacker}
+                                        src={ForthenthBanner}
                                     />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={Import}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={against}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={fitness}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={mini}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={skeleton}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={vpn}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <Image
-                                        className="image"
-                                        src={zore}
-                                    />
-                                </div>
+                                </div> */}
                             </div>
                             : ''}
                 </div>

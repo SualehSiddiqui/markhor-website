@@ -204,7 +204,6 @@
 
 .contact-now-button:hover {
     background-color: var(--second-color) !important;
-    /* color: var(--golden-color) !important; */
 }
 
 .contact-now-link {
@@ -254,12 +253,18 @@
 
 .logo-card {
     width: 330px;
-    height: 250px;
+    height: 190px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     overflow: hidden;
     margin-top: 10px;
     cursor: pointer;
+    overflow: hidden;
+}
+
+.banner-card {
+    width: 366px;
+    height: 200px;
 }
 
 .image,
