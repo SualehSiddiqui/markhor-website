@@ -12,7 +12,7 @@ const CorouselComp = () => (
             <div className='text-div-carousel'>
                 <Container>
                     <h1 className='carousel-text-h1'>We make technology Simple</h1>
-                    <p className='carousel-text-p'>Proactive MindsetIndustry KnowledgeCommitment to QualityOn Time Delivey</p>
+                    <p className='carousel-text-p'>Proactive Mind set Industry Knowledge Commitment to Quality On Time Delivey</p>
                 </Container>
             </div>
             <img src={First} alt="Web Devlopement" className='carousel-image' />
@@ -21,7 +21,7 @@ const CorouselComp = () => (
             <div className='text-div-carousel'>
                 <Container>
                     <p className='carousel-text-p'>
-                        We are not just producing customized software but customize ourselves tothe customer needs to provide the best possible solution.
+                        We are not just producing customized software but customize ourselves to the customer needs to provide the best possible solution.
                     </p>
                 </Container>
             </div>
