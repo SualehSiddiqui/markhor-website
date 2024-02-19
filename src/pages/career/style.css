@@ -147,15 +147,15 @@
 }
 
 @media screen and (max-width: 768px) {
-    .current-oppening-main-div{
+    .current-oppening-main-div {
         height: 60vh;
     }
 
-    .current-opening-div>h1{
+    .current-opening-div>h1 {
         font-size: 52px;
     }
 
-    .img-text-div-job>p{
+    .img-text-div-job>p {
         font-size: 18px;
     }
 
@@ -167,5 +167,17 @@
 @media screen and (max-width: 484px) {
     .core-value-div {
         width: 100%;
+    }
+
+    .current-oppening-main-div {
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .role-main-div{
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }
