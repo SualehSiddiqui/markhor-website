@@ -146,7 +146,23 @@
     }
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 768px) {
+    .current-oppening-main-div{
+        height: 60vh;
+    }
+
+    .current-opening-div>h1{
+        font-size: 52px;
+    }
+
+    .img-text-div-job>p{
+        font-size: 18px;
+    }
+
+    .role-main-container>h1 {
+        font-size: 38px;
+    }
+}
 
 @media screen and (max-width: 484px) {
     .core-value-div {

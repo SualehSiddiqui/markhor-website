@@ -36,9 +36,9 @@ function NavbarComp() {
     return (
         <>
             {['sm'].map((expand) => (
-                <Navbar key={expand} expand={expand} className="bg-body main-navbar">
-                    <Container>
-                        <Navbar.Brand href="/">
+                <Navbar key={expand} expand={expand} className="bg-body main-navbar" style={{ overflow: 'hidden' }}>
+                    <Container >
+                        <Navbar.Brand href="/" style={{display: 'flex ', alignItems: 'center'}}>
                             <img src={navLogo} className="nav-logo-img" alt="Markhor_Soultion" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -58,7 +58,7 @@ function NavbarComp() {
                                     {pages.map((v, i) => {
                                         return (
                                             <Nav.Link
-                                                className={`nav-links ms-2 me-4 ${location.pathname === v.link ? 'nav-active-link' : ''}`}
+                                                className={`nav-links ms-2 me-2 ${location.pathname === v.link ? 'nav-active-link' : ''}`}
                                                 key={i}
                                                 href={v.link}
                                             >

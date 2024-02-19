@@ -216,7 +216,7 @@ const CareerPage = () => {
                     </div>
                 </Container >
                 <CounterSec />
-                <Container>
+                <Container className='mb-5'>
                     <h1 className='first-container-hd-1' data-aos="fade-right" data-aos-offset="300" data-aos-duration="700">Being our</h1>
                     <h1 className='first-container-hd-2 ms-5' data-aos="fade-left" data-aos-offset="300" data-aos-duration="700">Teammate</h1>
                     <div className='core-value-div-container min-width-992'>
@@ -370,7 +370,7 @@ const CareerPage = () => {
                         </div>
                     </div>
                 </Container >
-                <div className='current-oppening-main-div'>
+                <div className='current-oppening-main-div mt-5'>
                     <Container className='current-oppening-main-container'>
                         <div className='current-opening-div'>
                             <h1 data-aos="fade-right" data-aos-offset="300" data-aos-duration="700">Current Opening</h1>
