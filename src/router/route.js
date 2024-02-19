@@ -20,28 +20,41 @@ import MotionPage from "../pages/Technologies/MotionGraphics/index.jsx";
 import SocialPage from "../pages/Technologies/SocialMediaMarketing/index.jsx";
 import TelePage from "../pages/Technologies/Telemarketing/index.jsx";
 import ScrollToTop from "../components/ScrollToTop/index.jsx";
+//Navber
+import NavbarComp from '../components/Navbar';
+//Sub Header
+import SubHeaderComp from '../components/SubHeader/index.jsx';
+// Footer
+import Footer from '../components/Footer/index.jsx';
+
 
 const RoutesPages = () => {
     return (
-        <Router>
-            <ScrollToTop />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/ContactUs" element={<ContactUsPage />} />
-                <Route path="/Services" element={<ServicePage />} />
-                <Route path="/AboutUs" element={<AboutUsPage />} />
-                <Route path="/Jobs" element={<JobPage />} />
-                <Route path="/WebDevelopement" element={<WebDevPage />} />
-                <Route path="/EBook" element={<EbookPage />} />
-                <Route path="/BrandIdentity" element={<BrandPage />} />
-                <Route path="/DigitalMarketing" element={<DigitalPage />} />
-                <Route path="/UiDesigning" element={<UiPage />} />
-                <Route path="/MotionGraphics" element={<MotionPage />} />
-                <Route path="/SocialMediaMarketing" element={<SocialPage />} />
-                <Route path="/Telemarketing" element={<TelePage />} />
-                <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-        </Router>
+        <>
+            <Router>
+                <ScrollToTop />
+                <SubHeaderComp />
+                <NavbarComp />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/ContactUs" element={<ContactUsPage />} />
+                    <Route path="/Services" element={<ServicePage />} />
+                    <Route path="/AboutUs" element={<AboutUsPage />} />
+                    <Route path="/Jobs" element={<JobPage />} />
+                    <Route path="/WebDevelopement" element={<WebDevPage />} />
+                    <Route path="/EBook" element={<EbookPage />} />
+                    <Route path="/BrandIdentity" element={<BrandPage />} />
+                    <Route path="/DigitalMarketing" element={<DigitalPage />} />
+                    <Route path="/UiDesigning" element={<UiPage />} />
+                    <Route path="/MotionGraphics" element={<MotionPage />} />
+                    <Route path="/SocialMediaMarketing" element={<SocialPage />} />
+                    <Route path="/Telemarketing" element={<TelePage />} />
+                    <Route path="*" element={<NotFoundPage />} />
+                </Routes>
+                <Footer />
+            </Router>
+        </>
+
     )
 }
 

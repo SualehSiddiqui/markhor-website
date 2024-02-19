@@ -1,7 +1,5 @@
 import './style.css';
-import NavbarComp from '../../components/Navbar';
 import Container from 'react-bootstrap/Container';
-import Footer from '../../components/Footer/index.jsx'
 import Flag from '../../assets/ContactUs/flag.jpg'
 import AOS from "aos";
 import { useEffect } from 'react';
@@ -15,8 +13,7 @@ const ContactUsPage = () => {
     }, [])
 
     return (
-        <div>
-            <NavbarComp />
+        <>
             <div className='mid-section mid-section-1'>
                 <div className='shape-svg-container'>
                     <svg xmlns="http://www.w3.org/2000/svg" className='contact-svg' viewBox="0 0 1000 100" preserveAspectRatio="none">
@@ -79,8 +76,7 @@ const ContactUsPage = () => {
                 </div>
             </div>
             <ContactSec />
-            <Footer />
-        </div>
+        </>
     )
 }
 

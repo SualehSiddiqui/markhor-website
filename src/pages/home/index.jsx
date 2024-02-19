@@ -1,10 +1,8 @@
 import "./style.css"
-import NavbarComp from "../../components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import CorouselComp from '../../components/Carousel/index.jsx';
-import Footer from "../../components/Footer";
 import ServiceSec from "../../sections/Services.jsx";
 import ProcedureSec from "../../sections/Procedure.jsx";
 import ProjectSec from "../../sections/Projects.jsx";
@@ -25,8 +23,6 @@ const HomePage = () => {
                 <img src={backImage} alt="" className="background-image" />
             </div>
             <div>
-                {/* Navbar */}
-                <NavbarComp />
                 {/* Carousel */}
                 <CorouselComp />
                 {/* Services Section */}
@@ -41,8 +37,6 @@ const HomePage = () => {
                 <TechnologiesSec />
                 {/* Contact Section */}
                 <ContactSec />
-                {/* Footer */}
-                <Footer />
             </div>
         </div>
     )

@@ -70,6 +70,11 @@
     cursor: pointer;
 }
 
+.text-div div:hover,
+.text-div-link:hover {
+    color: white;
+}
+
 
 .location-icon {
     font-size: 25px;
@@ -108,9 +113,7 @@
     color: white;
 }
 
-.footer-links:hover,
-.text-div div:hover,
-.text-div-link:hover {
+.footer-links:hover{
     color: #0084ff;
 }
 

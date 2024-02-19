@@ -1,14 +1,10 @@
 import './style.css';
-import NavbarComp from '../../components/Navbar';
 import Container from 'react-bootstrap/Container';
-import Footer from '../../components/Footer/index.jsx'
 import { TypeAnimation } from 'react-type-animation';
-
 
 const NotFoundPage = () => {
     return (
-        <div>
-            <NavbarComp />
+        <>
             <div className="not-found-main">
                 <Container className="service-container">
                     <div className="notfound-div">
@@ -28,8 +24,7 @@ const NotFoundPage = () => {
                     </div>
                 </Container>
             </div>
-            <Footer />
-        </div>
+        </>
     )
 }
 
