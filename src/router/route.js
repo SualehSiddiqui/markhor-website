@@ -10,7 +10,7 @@ import NotFoundPage from "../pages/notFound/index.jsx";
 import ContactUsPage from "../pages/contactUs/index.jsx";
 import ServicePage from "../pages/service/index.jsx";
 import AboutUsPage from "../pages/aboutUs/index.jsx";
-import JobPage from "../pages/job/index.jsx";
+import CareerPage from "../pages/career/index.jsx";
 import WebDevPage from "../pages/Technologies/WebDevelopement/index.jsx";
 import EbookPage from "../pages/Technologies/Ebook/index.jsx";
 import BrandPage from "../pages/Technologies/BrandIdentity/index.jsx";
@@ -32,7 +32,7 @@ const RoutesPages = () => {
     return (
         <>
             <Router>
-                <ScrollToTop />
+                {/* <ScrollToTop /> */}
                 <SubHeaderComp />
                 <NavbarComp />
                 <Routes>
@@ -40,7 +40,7 @@ const RoutesPages = () => {
                     <Route path="/ContactUs" element={<ContactUsPage />} />
                     <Route path="/Services" element={<ServicePage />} />
                     <Route path="/AboutUs" element={<AboutUsPage />} />
-                    <Route path="/Jobs" element={<JobPage />} />
+                    <Route path="/Career" element={<CareerPage />} />
                     <Route path="/WebDevelopement" element={<WebDevPage />} />
                     <Route path="/EBook" element={<EbookPage />} />
                     <Route path="/BrandIdentity" element={<BrandPage />} />

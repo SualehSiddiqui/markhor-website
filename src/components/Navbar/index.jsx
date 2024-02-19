@@ -21,8 +21,8 @@ const pages = [
         link: "/AboutUs",
     },
     {
-        name: "Jobs",
-        link: "/Jobs",
+        name: "Career",
+        link: "/Career",
     },
     {
         name: "Contact Us",

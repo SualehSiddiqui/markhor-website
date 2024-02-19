@@ -105,7 +105,7 @@
 }
 
 .footer-link-div>ul>li:hover {
-    color: rgb(0, 132, 255);
+    color: var(--golden-color);
 }
 
 .footer-links {
@@ -114,7 +114,7 @@
 }
 
 .footer-links:hover{
-    color: #0084ff;
+    color: var(--golden-color);
 }
 
 .footer-icons-div {
@@ -129,8 +129,8 @@
 }
 
 .footer-icons-div:hover {
-    border: 1px solid #0084ff;
-    color: #0084ff !important;
+    border: 1px solid white;
+    color: var(--golden-color) !important;
 }
 
 .lower-footer {

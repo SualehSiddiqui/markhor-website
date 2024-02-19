@@ -1,7 +1,6 @@
 import "./style.css";
 import Container from 'react-bootstrap/Container';
 import { GiGraduateCap } from "react-icons/gi";
-// import { MdOutlineDoubleArrow } from "react-icons/md";
 import { FaPrescriptionBottle, FaPaperPlane } from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
 import { FaPhoneAlt } from "react-icons/fa";

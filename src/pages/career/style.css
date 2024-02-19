@@ -1,0 +1,155 @@
+.job-page-img-div {
+    background-image: url('../../assets/Job/career-pages-header.png');
+}
+
+.job-page-container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.first-container-hd-2,
+.first-container-hd-1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: black;
+}
+
+.first-container-hd-2 {
+    color: #97979b;
+}
+
+.core-value-div-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.core-value-div-container-2 {
+    margin-top: 20px;
+}
+
+.core-value-div {
+    width: 263px;
+    height: 294px;
+    margin-bottom: 20px;
+}
+
+.svg-div {
+    height: 96px;
+    width: 100%;
+}
+
+.sub-core-value-hd {
+    margin-bottom: 18px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+.sub-core-value-text {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.max-width-992 {
+    display: none;
+}
+
+.current-oppening-main-div {
+    background-color: var(--second-color);
+    width: 100%;
+    height: 80vh;
+}
+
+.current-oppening-main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-opening-div {
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.current-opening-div>h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    color: white !important;
+}
+
+.img-text-div-job {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-text-div-job>p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.contact-now-button-career:hover {
+    background-color: var(--golden-color) !important;
+    color: white !important;
+}
+
+.role-main-div {
+    background-color: #d6dce1;
+    width: 100%;
+    height: 440px;
+}
+
+.role-main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.role-main-container>h1 {
+    font-size: 44px;
+    line-height: 52px;
+    color: #40403f;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .min-width-992 {
+        display: none;
+    }
+
+    .max-width-992 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .core-value-div {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 484px) {
+    .core-value-div {
+        width: 100%;
+    }
+}
