@@ -32,7 +32,7 @@ const RoutesPages = () => {
     return (
         <>
             <Router>
-                {/* <ScrollToTop /> */}
+                <ScrollToTop />
                 <SubHeaderComp />
                 <NavbarComp />
                 <Routes>
