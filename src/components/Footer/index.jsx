@@ -22,7 +22,7 @@ const pages = [
   },
   {
     name: "Careers",
-    link: "/Careers",
+    link: "/Career",
   },
   {
     name: "Services",
