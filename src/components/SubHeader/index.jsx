@@ -14,7 +14,7 @@ const SubHeaderComp = () => {
                         <FaPhoneAlt className='me-1' />
                         <span>+92 318 3253219</span>
                     </Link>
-                    <Link className='sub-header-phone-div' to={'mailto:sualeh@gmail.com'} target='_blank'>
+                    <Link className='sub-header-phone-div' to={'mailto:info@markhorsolution.co'} target='_blank'>
                         <MdMailOutline className='me-1' />
                         <span>info@markhorsolution.com</span>
                     </Link>

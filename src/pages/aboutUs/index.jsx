@@ -8,6 +8,7 @@ import IconCheck from "../../assets/AboutUs/icon-check.png"
 import { FaRegCheckSquare } from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
 import { TypeAnimation } from 'react-type-animation';
+import RouterLink from '../../components/RouterLink/index.jsx';
 
 const AboutUsPage = () => {
     useEffect(() => {
@@ -27,6 +28,7 @@ const AboutUsPage = () => {
                         className='service-page-main-hd'
                         cursor={false}
                     />
+                    <RouterLink page={'About Us'} />
                 </Container>
                 <div className='shape-svg-container'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">

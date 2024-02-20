@@ -1,0 +1,10 @@
+.route-link-page{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.route-link-page:hover {
+    color: var(--golden-color);
+}

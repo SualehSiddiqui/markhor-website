@@ -20,7 +20,7 @@ import JobSearch from '../../assets/Job/JobSearch.webp'
 import Button from 'react-bootstrap/Button';
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import RouterLink from '../../components/RouterLink/index.jsx';
 
 const CareerPage = () => {
     const animationDuration = 1000;
@@ -53,6 +53,7 @@ const CareerPage = () => {
                         className='service-page-main-hd'
                         cursor={false}
                     />
+                    <RouterLink page={'Career'} />
                 </Container>
                 <div className='shape-svg-container'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
@@ -375,7 +376,7 @@ const CareerPage = () => {
                         <div className='current-opening-div'>
                             <h1 data-aos="fade-right" data-aos-offset="300" data-aos-duration="700">Current Opening</h1>
                             <div className='img-text-div-job'>
-                                <img src={JobSearch} width={200} height={200} alt="" />
+                                <img src={JobSearch} width={200} height={200} alt="" data-aos-duration={animationDuration} data-aos={animationType} />
                                 <p>
                                     Currently, we do not have any vacancies. Kindly share your details, and we will reach
                                     out to you once a fitting opportunity arises.

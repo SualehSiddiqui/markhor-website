@@ -1,7 +1,5 @@
 import '../style.css';
-import NavbarComp from '../../../components/Navbar';
 import Container from 'react-bootstrap/Container';
-import Footer from '../../../components/Footer/index.jsx';
 import AOS from "aos";
 import { useEffect } from 'react';
 import Banner1 from '../../../assets/GraphicDesigning/Banner1.webp'
@@ -14,7 +12,6 @@ const GraphicPage = () => {
     }, [])
     return (
         <>
-            <NavbarComp />
             <div className="main-web main-graphic">
                 <Container>
                     <div className='web-hero-text-div'>
@@ -72,7 +69,6 @@ const GraphicPage = () => {
 
                 </Container>
             </div>
-            <Footer />
         </>
     )
 }

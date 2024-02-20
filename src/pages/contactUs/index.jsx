@@ -5,6 +5,7 @@ import AOS from "aos";
 import { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import ContactSec from '../../sections/Contact.jsx';
+import RouterLink from '../../components/RouterLink/index.jsx';
 
 const ContactUsPage = () => {
 
@@ -42,6 +43,7 @@ const ContactUsPage = () => {
                             className='service-page-main-hd mt-5'
                             cursor={false}
                         />
+                        <RouterLink page={'Contact Us'} className='mt-1' />
                     </div>
                 </Container>
             </div>

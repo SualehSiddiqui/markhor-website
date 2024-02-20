@@ -11,6 +11,8 @@ import Triangle from "../../assets/Service/img-backup.png";
 import Img04 from "../../assets/Service/img-service-04.jpg";
 import Img05 from "../../assets/Service/img-service-05.jpg";
 import { TypeAnimation } from 'react-type-animation';
+import RouterLink from '../../components/RouterLink/index.jsx';
+
 
 const ServicePage = () => {
     useEffect(() => {
@@ -31,6 +33,7 @@ const ServicePage = () => {
                             className='service-page-main-hd'
                             cursor={false}
                         />
+                        <RouterLink page={'Service'} />
                     </Container>
                     <div className='shape-svg-container'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
