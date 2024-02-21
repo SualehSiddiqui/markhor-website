@@ -12,7 +12,7 @@ const GraphicPage = () => {
     }, [])
     return (
         <>
-            <div className="main-web main-graphic">
+            <div className="main-web main-ui">
                 <Container>
                     <div className='web-hero-text-div'>
                         <p>Ui/Ux Designing</p>

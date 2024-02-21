@@ -10,7 +10,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 const CounterSec = () => {
 
     return (
-        <div className="main-service main-counter">
+        <div className="main-service ">
             <Container className="service-container">
                 <div className="counter-div">
                     <div className="numbers-div" data-aos-duration="700" data-aos="zoom-in-up">

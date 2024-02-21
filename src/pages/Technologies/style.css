@@ -8,33 +8,26 @@
     align-items: center;
 }
 
-.main-app {
-    background-image: url('../../assets/MobileAppDevelopement/64f6b74ec304019c72134eaa_mobile\ app.webp');
-}
-
-.main-brand-identity {
-    background-image: url('../../assets/BrandIdentity/64f6b9a89aea95f14a377d89_ui-ux.webp');
-}
-
-.main-digital {
-    background-image: url('../../assets/DigitalMarketing/64f7f731d2bc4a19c8b3b39c_mvp.webp');
-}
-
-.main-graphic {
+.main-ui {
     background-image: url('../../assets/GraphicDesigning/64de0dd787950ac0909fca5b_Sass\ banner.webp');
 }
 
-.main-motion {
-    background-image: url('../../assets/MotionGraphics/64dc8dc710991839fafa216c_Webflow\ Banner\ Image.webp');
+.main-ebook {
+    background-image: url('../../assets/EBook/64f6b74ec304019c72134eaa_mobile\ app.webp');
 }
 
 .main-social {
     background-image: url('../../assets/SocialMediaMarketing/64ec3667da9f385007dd7515_Branding.webp');
 }
 
-.main-tele {
-    background-image: url('../../assets/Telemarketing/64f7f797f9ccd5d7fc3ff26c_design-system.webp');
+.main-motion {
+    background-image: url('../../assets/MotionGraphics/64dc8dc710991839fafa216c_Webflow\ Banner\ Image.webp');
 }
+
+.main-digital {
+    background-image: url('../../assets/DigitalMarketing/64f7f731d2bc4a19c8b3b39c_mvp.webp');
+}
+
 
 .web-hero-text-div {
     width: 450px;

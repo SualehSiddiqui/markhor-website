@@ -74,7 +74,7 @@ const ServiceSec = () => {
                             </Link>
                         </div>
                         <div data-aos="fade-up-left" data-aos-offset="300" data-aos-duration="700">
-                            <Link to={'/MobileAppDevelopement'} className="service-link">
+                            <Link to={'/EBook'} className="service-link">
                                 <div className="service-card">
                                     <img src={EBook} alt="" className="card-img" />
                                 </div>

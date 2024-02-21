@@ -32,13 +32,15 @@ const HomePage = () => {
                 {/* Case Study */}
                 <ProjectSec />
                 {/* Counter */}
+                <div style={{ backgroundColor: 'var(--card-bg)'}}>
                 <CounterSec />
-                {/* Technologies Section*/}
-                <TechnologiesSec />
-                {/* Contact Section */}
-                <ContactSec />
             </div>
+            {/* Technologies Section*/}
+            <TechnologiesSec />
+            {/* Contact Section */}
+            <ContactSec />
         </div>
+        </div >
     )
 }
 

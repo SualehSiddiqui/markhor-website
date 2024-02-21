@@ -17,8 +17,7 @@
     background-color: black;
 }
 
-.main-project,
-.main-counter {
+.main-project {
     background-color: var(--card-bg);
 }
 
