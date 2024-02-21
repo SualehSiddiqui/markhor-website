@@ -82,7 +82,7 @@ export default function Footer() {
   return (
     <div className="main-footer me-auto">
       <div className="upper-footer">
-        <Container className="footer-container">
+        <Container className="footer-container pt-4">
           <div className="sub-footer">
             <div className="logo-div">
               <img src={FooterLogo} alt="Footer-Logo_Markhor" className="footer-logo" />
@@ -169,7 +169,7 @@ export default function Footer() {
               </Form>
             </div>
           </div>
-          <div className="sub-footer quick-links-div">
+          <div className="sub-footer sub-footer-service quick-links-div">
             <div className="logo-div">
               <h1>Services</h1>
             </div>

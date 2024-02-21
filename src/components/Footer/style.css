@@ -160,13 +160,24 @@
 
     .sub-footer {
         border: none;
+        min-height: auto;
+    }
+
+    .sub-footer-service{
+        display: none;
     }
 
     .logo-div {
         height: auto;
     }
 
+    .logo-div h1 {
+        padding: 10px;
+    }
+
     .text-div {
+        padding-top: 0;
+        /* padding-bottom: 0; */
         min-height: auto;
     }
 }
@@ -178,5 +189,9 @@
 
     .logo-div h1 {
         font-size: 30px;
+    }
+
+    .logo-div h1 {
+        padding: 0px;
     }
 }

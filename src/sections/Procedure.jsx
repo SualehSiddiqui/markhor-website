@@ -22,7 +22,7 @@ const ProcedureSec = () => {
                 </h1>
             </div>
             <Container className="service-container procedure-container d-flex">
-                <div className="service-card-div">
+                <div className="service-card-div procedure-card-div">
                     <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex p-4">
                         <div className="icon-div">
                             <div className="sub-icon-div">

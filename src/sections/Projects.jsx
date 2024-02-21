@@ -251,42 +251,6 @@ const ProjectSec = () => {
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
                                     <video className="image" autoPlay loop src={EightOverlay} muted type="video/mp4" />
                                 </div>
-                                {/* <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <img
-                                        className="image"
-                                        src={NinthBanner}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <img
-                                        className="image"
-                                        src={TenthBanner}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <img
-                                        className="image"
-                                        src={EleventhBanner}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <img
-                                        className="image"
-                                        src={TwevelvethBanner}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <img
-                                        className="image"
-                                        src={ThirteenthBanner}
-                                    />
-                                </div>
-                                <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <img
-                                        className="image"
-                                        src={ForthenthBanner}
-                                    />
-                                </div> */}
                             </div>
                             : ''}
                 </div>
