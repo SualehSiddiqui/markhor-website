@@ -13,6 +13,10 @@ import { FiTwitter } from "react-icons/fi";
 
 const pages = [
   {
+    name: "Home",
+    link: "/",
+  },
+  {
     name: "Contact Us",
     link: "/ContactUs",
   },
@@ -134,12 +138,12 @@ export default function Footer() {
                     <FaInstagram />
                   </div>
                 </Link>
-                <div className="footer-icons-div mt-1 me-2">
+                {/* <div className="footer-icons-div mt-1 me-2">
                   <FaLinkedin />
                 </div>
                 <div className="footer-icons-div mt-1 me-2">
                   <FiTwitter />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

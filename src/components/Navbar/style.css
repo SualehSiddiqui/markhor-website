@@ -19,7 +19,15 @@
 }
 
 .nav-logo-img {
-    /* width: 220px; */
     height: 80px;
-    /* margin-top: 10px; */
+}
+
+@media screen and (max-width:575px) {
+    .main-navbar {
+        padding-top: 2px !important;
+    }
+
+    .nav-logo-img {
+        height: 70px;
+    }
 }

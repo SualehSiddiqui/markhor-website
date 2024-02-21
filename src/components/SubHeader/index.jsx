@@ -8,7 +8,7 @@ const SubHeaderComp = () => {
     return (
         <div className='sub-header-div'>
             <Container className='sub-header-container'>
-                <div className='sub-header-text-div'>We are your reliable technology partner.</div>
+                <div className='sub-header-text-div'>Empowering Your Future with Innovative Solutions.</div>
                 <div className='sub-header-contact-div'>
                     <Link className='sub-header-phone-div' to={'tel:++923183253219'} target='_blank'>
                         <FaPhoneAlt className='me-1' />
