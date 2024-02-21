@@ -149,6 +149,9 @@
     width: 250px;
 }
 
+.footer-active-link{
+    color: var(--golden-color);
+}
 
 @media screen and (max-width: 1024px) {
     .footer-container {

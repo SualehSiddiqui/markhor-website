@@ -1,5 +1,5 @@
 import "./style.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaPhoneAlt, FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -67,6 +67,8 @@ const services = [
 
 export default function Footer() {
   const [footerEmail, setFooterEmail] = useState("");
+  const location = useLocation();
+  console.log(location.pathname)
 
   const handleFooterSubmit = (e) => {
     e.preventDefault()
@@ -112,7 +114,7 @@ export default function Footer() {
                   pages.map((v, i) => {
                     return (
                       <li key={i}>
-                        <Link to={v.link} className="footer-links">
+                        <Link to={v.link} className={`footer-links ${v.link === location.pathname ? 'footer-active-link' : ''}`}>
                           <MdDoubleArrow className="footer-list-icons" />
                           {v.name}
                         </Link>
@@ -173,7 +175,7 @@ export default function Footer() {
                   services.map((v, i) => {
                     return (
                       <li key={i}>
-                        <Link to={v.link} className="footer-links">
+                        <Link to={v.link} className={`footer-links ${v.link === location.pathname ? 'footer-active-link' : ''}`}>
                           <MdDoubleArrow className="footer-list-icons" />
                           {v.name}
                         </Link>
@@ -185,10 +187,10 @@ export default function Footer() {
             </div>
           </div>
         </Container>
-      </div>
+      </div >
       <div className="lower-footer">
         <span>Copyright © 2023 Markhor Solution | All Rights Reserved.</span>
       </div>
-    </div>
+    </div >
   );
 }
