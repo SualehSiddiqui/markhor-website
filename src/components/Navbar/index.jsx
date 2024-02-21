@@ -38,7 +38,7 @@ function NavbarComp() {
             {['sm'].map((expand) => (
                 <Navbar key={expand} expand={expand} className="bg-body main-navbar" style={{ overflow: 'hidden' }}>
                     <Container >
-                        <Navbar.Brand href="/" style={{display: 'flex ', alignItems: 'center'}}>
+                        <Navbar.Brand href="/" className="nav-img-div" style={{display: 'flex ', alignItems: 'center'}}>
                             <img src={navLogo} className="nav-logo-img" alt="Markhor_Soultion" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

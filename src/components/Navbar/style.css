@@ -23,11 +23,18 @@
 }
 
 @media screen and (max-width:575px) {
+    .nav-img-div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
     .main-navbar {
-        padding-top: 2px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
     }
 
     .nav-logo-img {
-        height: 70px;
+        height: 55px;
     }
 }

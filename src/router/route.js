@@ -20,8 +20,6 @@ import SocialPage from "../pages/Technologies/SocialMediaMarketing/index.jsx";
 import ScrollToTop from "../components/ScrollToTop/index.jsx";
 //Navber
 import NavbarComp from '../components/Navbar';
-//Sub Header
-import SubHeaderComp from '../components/SubHeader/index.jsx';
 // Footer
 import Footer from '../components/Footer/index.jsx';
 
@@ -31,7 +29,6 @@ const RoutesPages = () => {
         <>
             <Router>
                 <ScrollToTop />
-                <SubHeaderComp />
                 <NavbarComp />
                 <Routes>
                     <Route path="/" element={<HomePage />} />
