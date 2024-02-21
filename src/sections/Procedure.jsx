@@ -23,12 +23,12 @@ const ProcedureSec = () => {
             </div>
             <Container className="service-container procedure-container d-flex">
                 <div className="service-card-div procedure-card-div">
-                    <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex p-4">
+                    <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex">
                         <div className="icon-div">
                             <div className="sub-icon-div">
                                 01
                             </div>
-                            <GiGraduateCap size={100} />
+                            <GiGraduateCap size={80} />
                         </div>
                         <div className="procedure-text-div p-3">
                             <h4>Got an idea?</h4>
@@ -36,7 +36,7 @@ const ProcedureSec = () => {
 
                         </div>
                     </div>
-                    <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex p-4">
+                    <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex">
                         <div className="icon-div">
                             <div className="sub-icon-div">
                                 02
@@ -48,7 +48,7 @@ const ProcedureSec = () => {
                             <p>Brining your imagination to life</p>
                         </div>
                     </div>
-                    <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex p-4">
+                    <div data-aos-duration="700" data-aos="zoom-in-up" className="procedure-card d-flex">
                         <div className="icon-div">
                             <div className="sub-icon-div">
                                 03
