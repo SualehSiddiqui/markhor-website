@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaPhoneAlt, FaFacebookF, FaInstagram, } from "react-icons/fa";
-// FaLinkedin
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { MdDoubleArrow } from "react-icons/md";
 import FooterLogo from "../../assets/Footer/footer-logo.png";
-// import { FiTwitter } from "react-icons/fi";
 
 const pages = [
   {
@@ -137,12 +135,6 @@ export default function Footer() {
                     <FaInstagram />
                   </div>
                 </Link>
-                {/* <div className="footer-icons-div mt-1 me-2">
-                  <FaLinkedin />
-                </div>
-                <div className="footer-icons-div mt-1 me-2">
-                  <FiTwitter />
-                </div> */}
               </div>
             </div>
           </div>

@@ -17,6 +17,7 @@
     min-height: 550px;
     align-items: center;
     justify-content: center;
+    z-index: 999;
 }
 
 .sub-footer {
@@ -113,7 +114,7 @@
     color: white;
 }
 
-.footer-links:hover{
+.footer-links:hover {
     color: var(--golden-color);
 }
 
@@ -142,7 +143,6 @@
     background-color: var(--golden-color);
     color: white;
     font-size: 14px;
-    /* font-weight: 600; */
 }
 
 .footer-logo {
@@ -159,7 +159,7 @@
         min-height: auto;
     }
 
-    .sub-footer-service{
+    .sub-footer-service {
         display: none;
     }
 
