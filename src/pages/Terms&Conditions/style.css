@@ -1,0 +1,20 @@
+.main-text-div {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.main-text-div>h2 {
+    font-size: 25px;
+    color: #091d3e !important;
+    text-transform: uppercase;
+}
+
+.main-text-div>ul{
+    list-style: none;
+    padding: 0;
+    color: var(--second-color);
+}
+
+.main-text-div>li{
+    font-size: 16px;
+}

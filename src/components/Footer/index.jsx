@@ -2,13 +2,14 @@ import "./style.css";
 import { Link, useLocation } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaPhoneAlt, FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaPhoneAlt, FaFacebookF, FaInstagram,  } from "react-icons/fa";
+// FaLinkedin
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from "react";
 import { MdDoubleArrow } from "react-icons/md";
 import FooterLogo from "../../assets/Footer/footer-logo.png";
-import { FiTwitter } from "react-icons/fi";
+// import { FiTwitter } from "react-icons/fi";
 
 
 const pages = [
@@ -34,7 +35,7 @@ const pages = [
   },
   {
     name: "Terms & Conditons",
-    link: "/TermsAndConditons",
+    link: "/TermAndCondition",
   },
   {
     name: "Privacy & Policy",
@@ -118,7 +119,7 @@ export default function Footer() {
                   pages.map((v, i) => {
                     return (
                       <li key={i}>
-                        <Link to={v.link} className={`footer-links ${v.link === location.pathname ? 'footer-active-link' : ''}`}>
+                        <Link to={v.link} className='footer-links'>
                           <MdDoubleArrow className="footer-list-icons" />
                           {v.name}
                         </Link>
@@ -179,7 +180,7 @@ export default function Footer() {
                   services.map((v, i) => {
                     return (
                       <li key={i}>
-                        <Link to={v.link} className={`footer-links ${v.link === location.pathname ? 'footer-active-link' : ''}`}>
+                        <Link to={v.link} className='footer-links'>
                           <MdDoubleArrow className="footer-list-icons" />
                           {v.name}
                         </Link>

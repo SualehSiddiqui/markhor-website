@@ -149,4 +149,8 @@
     .appointments-button-div {
         width: 100%;
     }
+
+    .main-detail-about {
+        height: 480px;
+    }
 }
