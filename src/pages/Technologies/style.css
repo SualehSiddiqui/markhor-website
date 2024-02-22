@@ -107,6 +107,8 @@
     .main-web {
         background-image: none;
         background-color: black;
+        min-height: 525px;
+        height: auto;
     }
 }
 
