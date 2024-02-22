@@ -33,9 +33,9 @@ const TechnologiesSec = () => {
     const animationType = "zoom-in";
     return (
         <div className="main-service main-technologies">
-            <div className="main-service-hd-1">
+            <div className="main-service-hd-1 main-tech-hd-1">
                 <h1
-                    className="main-procedure-hd"
+                    className="main-procedure-hd main-technologies-hd"
                     data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-duration="700"

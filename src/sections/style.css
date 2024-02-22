@@ -35,6 +35,11 @@
     position: relative;
 }
 
+.main-tech-hd-1{
+    min-height: 90px;
+    height: auto;
+}
+
 .main-project-hd-1 {
     background-color: transparent;
 }
@@ -50,6 +55,13 @@
     margin-bottom: 0;
     z-index: 0;
     height: 80px;
+}
+
+.main-contact-hd,
+.main-technologies-hd {
+    height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .main-project-hd {
@@ -508,10 +520,18 @@
         height: 60px !important;
     }
 
+    .main-tech-hd-1 {
+        height: auto !important;
+    }
+
     .main-service-hd,
     .main-procedure-hd {
         font-size: 46px;
         height: 50px;
+    }
+
+    .main-technologies-hd{
+        height: auto;
     }
 
     .main-contact-hd {
