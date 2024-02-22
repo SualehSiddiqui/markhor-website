@@ -1,16 +1,15 @@
 import "./style.css";
-import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaPhoneAlt, FaFacebookF, FaInstagram,  } from "react-icons/fa";
+import { FaPhoneAlt, FaFacebookF, FaInstagram, } from "react-icons/fa";
 // FaLinkedin
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { useState } from "react";
 import { MdDoubleArrow } from "react-icons/md";
 import FooterLogo from "../../assets/Footer/footer-logo.png";
 // import { FiTwitter } from "react-icons/fi";
-
 
 const pages = [
   {
@@ -72,16 +71,15 @@ const services = [
 
 export default function Footer() {
   const [footerEmail, setFooterEmail] = useState("");
-  const location = useLocation();
-  console.log(location.pathname)
-
   const handleFooterSubmit = (e) => {
     e.preventDefault()
     console.log(footerEmail)
   }
 
+
+
   return (
-    <div className="main-footer me-auto">
+    <div className="main-footer me-auto" >
       <div className="upper-footer">
         <Container className="footer-container pt-4">
           <div className="sub-footer">
