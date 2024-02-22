@@ -125,3 +125,13 @@
         padding-right: 0px;
     }
 }
+
+@media screen and (max-width: 512px) {
+    .web-hero-text-div {
+        width: 100%;
+    }
+
+    /* .hero-container{
+        width: 100%;
+    } */
+}

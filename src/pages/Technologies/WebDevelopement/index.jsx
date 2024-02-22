@@ -13,7 +13,7 @@ const WebDevPage = () => {
     return (
         <>
             <div className="main-web">
-                <Container>
+                <Container className='hero-container'>
                     <div className='web-hero-text-div'>
                         <p>Web Design & Development</p>
                         <span >
