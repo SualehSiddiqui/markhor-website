@@ -93,31 +93,31 @@ const ProjectSec = () => {
                         whichProject === "Logo Design" ?
                             <div className="logo-container">
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={FirstLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={FirstLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={SecondLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={SecondLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={ThirdLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={ThirdLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={FourthLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={FourthLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={FifthLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={FifthLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={SixthLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={SixthLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={SeventhLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={SeventhLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={EightLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={EightLogo} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={NinthLogo} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={NinthLogo} muted type="video/mp4" />
                                 </div>
                             </div>
                             : ''}
@@ -228,28 +228,28 @@ const ProjectSec = () => {
                         whichProject === "Overlay" ?
                             <div className="logo-container">
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={FirstOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={FirstOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={SecondOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={SecondOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={ThirdOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={ThirdOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={FourthOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={FourthOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={FifthOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={FifthOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={SixthOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={SixthOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={SeventhOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={SeventhOverlay} muted type="video/mp4" />
                                 </div>
                                 <div data-aos-duration="700" data-aos="zoom-in-up" className="logo-card banner-card">
-                                    <video controls={false} vimeoConfig={{ iframeParams: { fullscreen: 0 } }} className="image" autoPlay loop src={EightOverlay} muted type="video/mp4" />
+                                    <video controls={false} className="image" autoPlay loop src={EightOverlay} muted type="video/mp4" />
                                 </div>
                             </div>
                             : ''}

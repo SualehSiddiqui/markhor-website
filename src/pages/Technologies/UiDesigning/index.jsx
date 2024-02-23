@@ -2,9 +2,9 @@ import '../style.css';
 import Container from 'react-bootstrap/Container';
 import AOS from "aos";
 import { useEffect } from 'react';
-import Banner1 from '../../../assets/GraphicDesigning/Banner1.webp'
-import Banner2 from '../../../assets/GraphicDesigning/Banner2.webp'
-import Banner3 from '../../../assets/GraphicDesigning/Banner3.webp'
+import Banner1 from '../../../assets/UiDesigning/Banner1.webp'
+import Banner2 from '../../../assets/UiDesigning/Banner2.webp'
+import Banner3 from '../../../assets/UiDesigning/Banner3.webp'
 
 const GraphicPage = () => {
     useEffect(() => {

@@ -64,6 +64,10 @@ const services = [
   {
     name: "Motion Graphics",
     link: "/MotionGraphics"
+  },
+  {
+    name: "E-Book",
+    link: "/EBook"
   }
 ]
 
