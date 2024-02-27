@@ -68,7 +68,7 @@ const ProjectSec = () => {
                 <SvgComponent />
             </div>
             <Container className="service-container mt-5">
-                <div>
+                <div className="projects-btn-div">
                     <button
                         className={`logo-button ${whichProject === 'Logo Design' ? 'selected-logo-button' : ''}`}
                         onClick={() => setWhichProject('Logo Design')}

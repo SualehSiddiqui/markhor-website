@@ -53,8 +53,9 @@
     text-transform: capitalize;
     color: var(--hd-text-color);
     margin-bottom: 0;
-    z-index: 0;
     height: 80px;
+    position: relative;
+    z-index: 1;
 }
 
 .main-contact-hd,
@@ -288,6 +289,13 @@
 
 .website-image:hover {
     transform: translate3d(0px, -800 0px, 0px);
+}
+
+.projects-btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Counter div */

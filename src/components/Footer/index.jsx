@@ -104,7 +104,9 @@ export default function Footer() {
                   <IoLocationOutline className="location-icon me-1" />
                 </p>
                 <p>
-                  Fedreal. B Area, BLock#14, Karachi, Sindh
+                  <Link to={'https://maps.app.goo.gl/bnNUoZ41h8wA4bLH7'} target="_blank" className="text-div-link">
+                    Fedreal. B Area, BLock#14, Karachi, Sindh
+                  </Link>
                 </p>
               </div>
             </div>
