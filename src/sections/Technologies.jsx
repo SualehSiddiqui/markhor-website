@@ -29,7 +29,7 @@ import elasticsearch from "../assets/Technologies/Database/elasticsearch.svg";
 import SvgComponent from "../components/SvgComponent";
 
 const TechnologiesSec = () => {
-    const animationDuration = 1000;
+    const animationDuration = 700;
     const animationType = "zoom-in";
     return (
         <div className="main-service main-technologies">
