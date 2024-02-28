@@ -7,7 +7,7 @@ import Third from '../../assets/Carousel/Third.jpg'
 import Fourth from '../../assets/Carousel/Fourth.jpg'
 
 const CorouselComp = () => (
-    <>
+    <div>
         <Carousel autoplay className='carousel-div' fade speed={1000} autoplaySpeed={5000}>
             <div className='carousel-div'>
                 <div className='text-div-carousel'>
@@ -53,6 +53,6 @@ const CorouselComp = () => (
                 <img src={Fourth} alt="Graphic Desinging" className='carousel-image' />
             </div>
         </Carousel>
-    </>
+    </div>
 );
 export default CorouselComp;

@@ -10,6 +10,7 @@ import CounterSec from "../../sections/Counter.jsx";
 import TechnologiesSec from "../../sections/Technologies.jsx";
 import ContactSec from "../../sections/Contact.jsx";
 import backImage from "../../assets/background-img-2.png"
+import Hero from "../../components/Hero/index.jsx";
 
 const HomePage = () => {
 
@@ -24,7 +25,8 @@ const HomePage = () => {
             </div>
             <div>
                 {/* Carousel */}
-                <CorouselComp />
+                {/* <CorouselComp /> */}
+                <Hero />
                 {/* Services Section */}
                 <ServiceSec />
                 {/* Procedure Section */}
@@ -32,14 +34,14 @@ const HomePage = () => {
                 {/* Case Study */}
                 <ProjectSec />
                 {/* Counter */}
-                <div style={{ backgroundColor: 'var(--card-bg)'}}>
-                <CounterSec />
+                <div style={{ backgroundColor: 'var(--card-bg)' }}>
+                    <CounterSec />
+                </div>
+                {/* Technologies Section*/}
+                <TechnologiesSec />
+                {/* Contact Section */}
+                <ContactSec />
             </div>
-            {/* Technologies Section*/}
-            <TechnologiesSec />
-            {/* Contact Section */}
-            <ContactSec />
-        </div>
         </div >
     )
 }

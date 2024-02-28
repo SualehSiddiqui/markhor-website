@@ -36,7 +36,7 @@ function NavbarComp() {
     return (
         <>
             {['sm'].map((expand) => (
-                <Navbar key={expand} expand={expand} className="bg-body main-navbar" style={{ overflow: 'hidden' }}>
+                <Navbar key={expand} expand={expand} className="main-navbar sticky-top" style={{ overflow: 'hidden' }}>
                     <Container >
                         <Navbar.Brand href="/" className="nav-img-div" style={{display: 'flex ', alignItems: 'center'}}>
                             <img src={navLogo} className="nav-logo-img" alt="Markhor_Soultion" />

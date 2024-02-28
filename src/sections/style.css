@@ -7,7 +7,7 @@
 .main-service {
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: var(--bg-color);
     padding-top: 50px;
     padding-bottom: 100px;
     overflow: hidden;
@@ -25,7 +25,7 @@
     background-image: url('../assets/Procedure/background-img.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #ffffff;
+    background-color: var(--bg-color);
 }
 
 .main-service-hd-1 {
@@ -89,7 +89,7 @@
 
 .service-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 }
 
 .service-link:hover {
@@ -160,7 +160,7 @@
 
 
 .icon-div {
-    background-color: #ffffff;
+    background-color: #fff;
     width: 230px;
     height: 230px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
@@ -179,7 +179,7 @@
     border-radius: 50%;
     position: absolute;
     right: -70px;
-    color: #ffffff;
+    color: #fff;
     font-size: 40px;
     display: flex;
     justify-content: center;
