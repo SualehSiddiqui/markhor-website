@@ -1,614 +1,617 @@
-/* Service */
-.svg-div {
-    width: 200px;
-    height: 200px;
-}
-
-.main-service {
-    width: 100%;
-    height: auto;
-    background-color: var(--bg-color);
-    padding-top: 50px;
-    padding-bottom: 100px;
-    overflow: hidden;
-}
-
-.main-service-div {
-    background-color: black;
-}
-
-.main-project {
-    background-color: var(--card-bg);
-}
-
-.main-project {
-    background-image: url('../assets/Procedure/background-img.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: var(--bg-color);
-}
-
-.main-service-hd-1 {
-    width: 100%;
-    height: 90px;
-    background-color: var(--second-color);
-    position: relative;
-}
-
-.main-tech-hd-1{
-    min-height: 90px;
-    height: auto;
-}
-
-.main-project-hd-1 {
-    background-color: transparent;
-}
-
-.main-service-hd,
-.main-procedure-hd,
-.main-contact-hd {
-    text-align: center;
-    font-weight: 400;
-    font-size: 60px;
-    text-transform: capitalize;
-    color: var(--hd-text-color);
-    margin-bottom: 0;
-    height: 80px;
-    position: relative;
-    z-index: 1;
-}
-
-.main-contact-hd,
-.main-technologies-hd {
-    height: auto;
-    position: relative;
-    z-index: 1;
-}
-
-.main-project-hd {
-    color: black;
-}
-
-.service-card-div {
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3;
-}
-
-.background-image-card {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
-.service-link {
-    text-decoration: none;
-    color: #fff;
-}
-
-.service-link:hover {
-    color: var(--golden-color);
-}
-
-.service-card {
-    width: 470px;
-    height: 690px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    position: relative;
-    transition-property: border-top-left-radius, border-bottom-right-radius, transform;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    overflow: hidden;
-    border: 1px solid var(--golden-color);
-}
-
-.service-card:hover {
-    transform: skewY(-5deg);
-}
-
-
-.card-img {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s;
-}
-
-.card-img:hover {
-    transform: scale(1.2);
-}
-
-.sercvice-card-text-div {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 70px;
-}
-
-.sercvice-card-text-div>h1 {
-    font-size: 1.7rem;
-}
-
-/* Procedure */
-.procedure-hd,
-.service-hd {
-    text-align: center;
-    color: var(--golden-color);
-    text-transform: capitalize;
-}
-
-.procedure-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.procedure-card {
-    width: 350px;
-    height: 450px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-.icon-div {
-    background-color: #fff;
-    width: 230px;
-    height: 230px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
-    border-radius: 50%;
-    color: var(--golden-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.sub-icon-div {
-    background-color: black;
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
-    position: absolute;
-    right: -70px;
-    color: #fff;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon-div:hover {
-    background-color: var(--second-color);
-    color: white;
-}
-
-.procedure-text-div>h4 {
-    font-size: 20px;
-    color: black;
-}
-
-.procedure-text-div>p {
-    font-size: 14px;
-    color: slategray;
-}
-
-.contact-now-button {
-    width: 190px !important;
-    height: 50px !important;
-    border-radius: 24px !important;
-    font-size: 14px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-now-button:hover {
-    background-color: var(--second-color) !important;
-}
-
-.contact-now-link {
-    text-decoration: none;
-}
-
-/* Work */
-.logo-button {
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    outline: none;
-    border: none;
-    background-color: transparent;
-    font-weight: 500;
-    color: var(--second-color);
-}
-
-.selected-logo-button {
-    color: white;
-    background-color: var(--second-color);
-}
-
-.selected-logo-button:hover {
-    background-color: var(--second-color) !important;
-}
-
-.logo-button:hover {
-    color: white;
-    background-color: var(--golden-color);
-}
-
-
-.main-img-container {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-}
-
-.logo-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.logo-card {
-    width: 330px;
-    height: 190px;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-top: 10px;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.banner-card {
-    width: 366px;
-    height: 200px;
-}
-
-.image,
-.website-image {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.website-image {
-    height: auto !important;
-    transform: translate3d(0px, 0px, 0px);
-    transition: transform .9s ease-in-out;
-}
-
-.website-image:hover {
-    transform: translate3d(0px, -800 0px, 0px);
-}
-
-.projects-btn-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* Counter div */
-.counter-div {
-    width: 100%;
-    height: 220px;
-    background-color: var(--second-color);
-    box-shadow: 10px 10px 0px 0px var(--golden-color);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.numbers-div {
-    width: 20%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-}
-
-.numbers-div>h1 {
-    font-size: 50px;
-}
-
-.numbers-div>p {
-    font-size: 20px;
-}
-
-.middle-line {
-    background-color: var(--golden-color);
-    width: 5px;
-    height: 50px;
-}
-
-/* Technologies */
-.main-technologies {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.technologies-1 {
-    width: 100%;
-    height: auto;
-}
-
-.tech-hd {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.hd-btn {
-    background-color: var(--golden-color);
-    color: white;
-    font-weight: 600;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-
-.technology {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.tech {
-    width: 120px;
-    height: 120px;
-    border: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow: hidden;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.tech>p {
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.tech:hover {
-    border: 1px solid rgb(48, 84, 243);
-}
-
-.images-tech {
-    width: 50px;
-    display: block;
-}
-
-
-/* Contact */
-.main-contact {
-    background-color: var(--second-color-opacity);
-    padding-top: 100px;
-    position: relative;
-    min-height: 100vh;
-}
-
-.main-contact-hd {
-    color: white;
-    text-align: center;
-}
-
-.background-img-div {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    z-index: -1;
-    background-image: url('../assets/background-image.jpeg');
-    background-size: cover;
-}
-
-.service-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.form-div {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.contact-label {
-    color: var(--golden-color);
-    font-size: 22px;
-}
-
-.contact-input,
-.contact-upload {
-    background-color: transparent !important;
-    border: 1px solid var(--golden-color) !important;
-    border-radius: 10px;
-    height: 50px;
-    font-size: 18px;
-    color: white !important;
-}
-
-.contact-input::-webkit-input-placeholder {
-    color: white !important;
-}
-
-.contact-input:focus,
-.contact-upload:focus {
-    box-shadow: none !important;
-    outline: none !important;
-}
-
-.contact-upload {
-    height: auto;
-}
-
-.contact-submit {
-    width: 120px;
-    height: 50px;
-    background-color: var(--golden-color) !important;
-    font-size: 20px !important;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    border: none !important;
-    margin-top: 20px;
-}
-
-@media screen and (max-width: 768px) {
-    .service-card {
-        width: 100%;
-        height: 550px;
-    }
-
-    .arrow-div {
-        display: none;
-    }
-
-    .procedure-card {
-        width: 100%;
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-    }
-
-
-    .procedure-card div h4 {
-        text-align: center;
-    }
-
-    .procedure-card div p {
-        text-align: center;
-    }
-
-    .website-card {
-        width: 100%;
-    }
-
-    .counter-div {
-        height: auto;
-        flex-direction: column;
-    }
-
-    .numbers-div>p {
-        text-align: center;
-    }
-
-    .middle-line {
-        width: 80%;
-        height: 1px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .main-service {
-        padding-top: 10px !important;
-    }
-
-    .main-service-hd-1 {
-        height: 60px !important;
-    }
-
-    .main-tech-hd-1 {
-        height: auto !important;
-    }
-
-    .main-service-hd,
-    .main-procedure-hd {
-        font-size: 46px;
-        height: 50px;
-    }
-
-    .main-technologies-hd{
-        height: auto;
-    }
-
-    .main-contact-hd {
-        height: auto;
-    }
-
-    .procedure-card-div {
-        margin-top: 0px;
-    }
-
-    .service-card {
-        height: 500px;
-    }
-
-    .procedure-card {
-        margin-top: 0;
-        width: 100%;
-        height: 215px !important;
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-        padding: 0 !important;
-    }
-
-    .icon-div {
-        width: 120px;
-        height: 120px;
-    }
-
-    .sub-icon-div {
-        height: 70px;
-        width: 70px;
-        font-size: 35px;
-        right: -35px;
-    }
-
-    .procedure-card div h4 {
-        text-align: center;
-    }
-
-    .procedure-card div p {
-        text-align: center;
-    }
-
-    .logo-card {
-        width: 330px;
-        height: 150px;
-    }
-
-    .numbers-div {
-        width: 20%;
-        height: 185px;
-    }
-
-    .numbers-div>h1 {
-        font-size: 35px;
-    }
-
-    .numbers-div>p {
-        font-size: 20px;
-    }
-
-}
-
-@media screen and (max-width: 360px) {
-
-    .main-service-hd,
-    .main-procedure-hd,
-    .main-contact-hd {
-        font-size: 30px;
-    }
-}
+ /* Service */
+ .svg-div {
+     width: 200px;
+     height: 200px;
+ }
+
+ .main-service {
+     width: 100%;
+     height: auto;
+     background-color: var(--bg-color);
+     padding-top: 50px;
+     padding-bottom: 100px;
+     overflow: hidden;
+ }
+
+ .main-service-div {
+     background-color: black;
+ }
+
+ .main-project {
+     background-color: var(--card-bg);
+ }
+
+ .main-project {
+     background-image: url('../assets/Procedure/background-img.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-color: var(--bg-color);
+ }
+
+ .main-service-hd-1 {
+     width: 100%;
+     height: auto;
+     background-color: var(--second-color);
+     position: relative;
+ }
+
+ .main-tech-hd-1 {
+     min-height: 90px;
+     height: auto;
+ }
+
+ .main-project-hd-1 {
+     background-color: transparent;
+ }
+
+ .main-service-hd,
+ .main-procedure-hd,
+ .main-contact-hd {
+     text-align: center;
+     font-weight: 400;
+     font-size: 60px;
+     text-transform: capitalize;
+     color: var(--hd-text-color);
+     margin-bottom: 0;
+     height: auto;
+     position: relative;
+     z-index: 1;
+ }
+
+ .main-contact-hd,
+ .main-technologies-hd {
+     height: auto;
+     position: relative;
+     z-index: 1;
+ }
+
+ .main-project-hd {
+     color: black;
+ }
+
+ .service-card-div {
+     width: 100%;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 3;
+ }
+
+ .background-image-card {
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: -1;
+ }
+
+ .service-link {
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .service-link:hover {
+     color: var(--golden-color);
+ }
+
+ .service-card {
+     width: 470px;
+     height: 690px;
+     overflow: hidden;
+     margin-bottom: 20px;
+     position: relative;
+     transition-property: border-top-left-radius, border-bottom-right-radius, transform;
+     transition-duration: 0.5s;
+     transition-timing-function: ease;
+     overflow: hidden;
+     border: 1px solid var(--golden-color);
+ }
+
+ .service-card:hover {
+     transform: skewY(-5deg);
+ }
+
+
+ .card-img {
+     width: 100%;
+     height: 100%;
+     transition: transform 0.3s;
+ }
+
+ .card-img:hover {
+     transform: scale(1.2);
+ }
+
+ .sercvice-card-text-div {
+     width: 100%;
+     height: 50px;
+     margin-bottom: 70px;
+ }
+
+ .sercvice-card-text-div>h1 {
+     font-size: 1.7rem;
+ }
+
+ /* Procedure */
+ .procedure-hd,
+ .service-hd {
+     text-align: center;
+     color: var(--golden-color);
+     text-transform: capitalize;
+ }
+
+ .procedure-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .procedure-card {
+     width: 350px;
+     height: 450px;
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+
+ .icon-div {
+     background-color: #fff;
+     width: 230px;
+     height: 230px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+     border-radius: 50%;
+     color: var(--golden-color);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+
+ .sub-icon-div {
+     background-color: black;
+     height: 125px;
+     width: 125px;
+     border-radius: 50%;
+     position: absolute;
+     right: -70px;
+     color: #fff;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .icon-div:hover {
+     background-color: var(--second-color);
+     color: white;
+ }
+
+ .procedure-text-div>h4 {
+     font-size: 20px;
+     color: black;
+ }
+
+ .procedure-text-div>p {
+     font-size: 14px;
+     color: slategray;
+ }
+
+ .contact-now-button {
+     width: 190px !important;
+     height: 50px !important;
+     border-radius: 24px !important;
+     font-size: 14px !important;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .contact-now-button:hover {
+     background-color: var(--second-color) !important;
+ }
+
+ .contact-now-link {
+     text-decoration: none;
+ }
+
+ /* Work */
+ .logo-button {
+     width: 150px;
+     height: 50px;
+     font-size: 20px;
+     outline: none;
+     border: none;
+     background-color: transparent;
+     font-weight: 500;
+     color: var(--second-color);
+ }
+
+ .selected-logo-button {
+     color: white;
+     background-color: var(--second-color);
+ }
+
+ .selected-logo-button:hover {
+     background-color: var(--second-color) !important;
+ }
+
+ .logo-button:hover {
+     color: white;
+     background-color: var(--golden-color);
+ }
+
+
+ .main-img-container {
+     width: 100%;
+     height: auto;
+     padding: 10px;
+ }
+
+ .logo-container {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .logo-card {
+     width: 30%;
+     height: auto;
+     border-radius: 8px;
+     overflow: hidden;
+     margin-top: 10px;
+     cursor: pointer;
+     overflow: hidden;
+ }
+
+ .banner-card {
+     width: 366px;
+     height: 200px;
+ }
+
+ .image,
+ .website-image {
+     width: 100% !important;
+     height: 100% !important;
+ }
+
+ .website-image {
+     height: auto !important;
+     transform: translate3d(0px, 0px, 0px);
+     transition: transform .9s ease-in-out;
+ }
+
+ .website-image:hover {
+     transform: translate3d(0px, -800 0px, 0px);
+ }
+
+ .projects-btn-div {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ /* Counter div */
+ .counter-div {
+     width: 100%;
+     height: 220px;
+     background-color: var(--second-color);
+     box-shadow: 10px 10px 0px 0px var(--golden-color);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .numbers-div {
+     width: 20%;
+     height: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: white;
+ }
+
+ .numbers-div>h1 {
+     font-size: 50px;
+ }
+
+ .numbers-div>p {
+     font-size: 20px;
+ }
+
+ .middle-line {
+     background-color: var(--golden-color);
+     width: 5px;
+     height: 50px;
+ }
+
+ /* Technologies */
+ .main-technologies {
+     background-color: rgba(255, 255, 255, 0.5);
+ }
+
+ .technologies-1 {
+     width: 100%;
+     height: auto;
+ }
+
+ .tech-hd {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+
+ .hd-btn {
+     background-color: var(--golden-color);
+     color: white;
+     font-weight: 600;
+     outline: none;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+     padding: 10px;
+     margin-top: 20px;
+ }
+
+
+ .technology {
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 30px;
+ }
+
+ .tech {
+     width: 120px;
+     height: 120px;
+     border: 1px solid gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     overflow: hidden;
+     margin-top: 10px;
+     cursor: pointer;
+ }
+
+ .tech>p {
+     text-transform: capitalize;
+     font-weight: 600;
+     font-size: 18px;
+ }
+
+ .tech:hover {
+     border: 1px solid rgb(48, 84, 243);
+ }
+
+ .images-tech {
+     width: 50px;
+     display: block;
+ }
+
+
+ /* Contact */
+ .main-contact {
+     background-color: var(--second-color-opacity);
+     padding-top: 100px;
+     position: relative;
+     min-height: 100vh;
+ }
+
+ .main-contact-hd {
+     color: white;
+     text-align: center;
+ }
+
+ .background-img-div {
+     width: 100%;
+     height: 100vh;
+     position: absolute;
+     z-index: -1;
+     background-image: url('../assets/background-image.jpeg');
+     background-size: cover;
+ }
+
+ .service-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+ }
+
+ .form-div {
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+ }
+
+ .contact-label {
+     color: var(--golden-color);
+     font-size: 22px;
+ }
+
+ .contact-input,
+ .contact-upload {
+     background-color: transparent !important;
+     border: 1px solid var(--golden-color) !important;
+     border-radius: 10px;
+     height: 50px;
+     font-size: 18px;
+     color: white !important;
+ }
+
+ .contact-input::-webkit-input-placeholder {
+     color: white !important;
+ }
+
+ .contact-input:focus,
+ .contact-upload:focus {
+     box-shadow: none !important;
+     outline: none !important;
+ }
+
+ .contact-upload {
+     height: auto;
+ }
+
+ .contact-submit {
+     width: 120px;
+     height: 50px;
+     background-color: var(--golden-color) !important;
+     font-size: 20px !important;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+     border: none !important;
+     margin-top: 20px;
+ }
+
+ @media screen and (max-width: 768px) {
+     .service-card {
+         width: 100%;
+         height: 550px;
+     }
+
+     .arrow-div {
+         display: none;
+     }
+
+     .procedure-card {
+         width: 100%;
+         flex-direction: column;
+         height: auto;
+         align-items: center;
+     }
+
+
+     .procedure-card div h4 {
+         text-align: center;
+     }
+
+     .procedure-card div p {
+         text-align: center;
+     }
+
+     .website-card {
+         width: 100%;
+     }
+
+     .counter-div {
+         height: auto;
+         flex-direction: column;
+     }
+
+     .numbers-div>p {
+         text-align: center;
+     }
+
+     .middle-line {
+         width: 80%;
+         height: 1px;
+     }
+
+     .logo-card {
+         width: 49%;
+         height: 110px;
+     }
+ }
+
+ @media screen and (max-width: 450px) {
+     .main-service {
+         padding-top: 10px !important;
+     }
+
+     .main-contact {
+         min-height: 80vh;
+     }
+
+     .background-img-div {
+         min-height: 80vh;
+     }
+
+     .main-service-hd,
+     .main-procedure-hd {
+         font-size: 46px;
+     }
+
+     .main-technologies-hd {
+         height: auto;
+     }
+
+     .main-contact-hd {
+         height: auto;
+         font-size: 45px;
+     }
+
+     .procedure-card-div {
+         margin-top: 0px;
+     }
+
+     .service-card {
+         height: 500px;
+     }
+
+     .procedure-card {
+         margin-top: 0;
+         width: 100%;
+         height: 215px !important;
+         flex-direction: column;
+         height: auto;
+         align-items: center;
+         padding: 0 !important;
+     }
+
+     .icon-div {
+         width: 120px;
+         height: 120px;
+     }
+
+     .sub-icon-div {
+         height: 70px;
+         width: 70px;
+         font-size: 35px;
+         right: -35px;
+     }
+
+     .procedure-card div h4 {
+         text-align: center;
+     }
+
+     .procedure-card div p {
+         text-align: center;
+     }
+
+     .numbers-div {
+         width: 20%;
+         height: 185px;
+     }
+
+     .numbers-div>h1 {
+         font-size: 35px;
+     }
+
+     .numbers-div>p {
+         font-size: 20px;
+     }
+
+     .form-div {
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width: 360px) {
+
+     .main-service-hd,
+     .main-procedure-hd,
+     .main-contact-hd {
+         font-size: 30px;
+     }
+ }

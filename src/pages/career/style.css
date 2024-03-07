@@ -73,7 +73,6 @@
 .current-opening-div {
     width: 100%;
     height: 80%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -179,5 +178,9 @@
         height: auto;
         padding-bottom: 20px;
         padding-top: 20px;
+    }
+
+    .first-container-hd-2, .first-container-hd-1 {
+        font-size: 60px;
     }
 }
