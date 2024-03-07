@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className='main-hero-div'>
             <Container style={{ zIndex: '999' }}>
-                <div className='sub-hero-div-2'>
+                <div className='sub-hero-div-2' data-aos="zoom-in" data-aos-offset="300">
                     <h2>
                         Digital Product
                         <span className="mobile-symbol">&amp;</span>
